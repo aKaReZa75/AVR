@@ -1,13 +1,9 @@
 /*
- * @file
+ * @file  Macros.c
  *
- * @brief  
+ * @brief  Assigning value to a register
  *
  * @note  
- *
- * @param  
- *
- * @return 
  *
  */
 
