@@ -7,6 +7,7 @@ MicroController Fundamental
 
 AVR MicroController
 -------------
+[![](https://img.shields.io/badge/AVR-Introduction-brown)](https://youtu.be/MzOPimZQYaU) [![](https://img.shields.io/badge/AVR-fuseBits-brown)](https://youtu.be/fGsOeDv1-gI) [![](https://img.shields.io/badge/AVR-GPIO_Part_A-brown)](https://youtu.be/_0uQSh0qBBo)
 
 
 Contact Us
