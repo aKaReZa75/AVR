@@ -1,4 +1,6 @@
 # AVR
+[![](https://img.shields.io/badge/Microcontroller-YouTube-orange)](https://www.youtube.com/playlist?list=PLDdvbHxhit_X3Aj13pAqfhCX3Dn080p6r)
+[![](https://img.shields.io/badge/AVR-YouTube-brown)](https://www.youtube.com/playlist?list=PLDdvbHxhit_Wx2JMPtw0zOPWzKg26iM7O)
 
 MicroController Fundamental
 -------------
