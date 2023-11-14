@@ -13,6 +13,6 @@ int main(void)
     setBit(PORTB, 0); // Turn the Led On
     _delay_ms(1000); // 1Sec Delay
     clearBit(PORTB, 0); // Turn the Led Off
-    _delay_ms(1000); // 1Sec Delay
+    _delay_ms(1000);  // 1Sec Delay
   };
 };
