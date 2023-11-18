@@ -26,6 +26,14 @@ Contact Us
 [![](https://img.shields.io/badge/You-Tube-red)](https://www.youtube.com/@aKaReZa75)
 [![](https://img.shields.io/badge/Linked-in-blue)](https://www.linkedin.com/in/akareza75)
 
+# Macros
+```
+#define setBit(Reg, Bit) (Reg |= (1<<Bit))
+#define clearBit(Reg, Bit) (Reg &= ~(1<<Bit))
+#define toggleBit(Reg, Bit) (Reg ^= 1<<Bit)
+#define checkBit(Reg, Bit) ((Reg>>Bit) & 0x01)
+#define changeBit(Reg, Bit, Value) (Value == 1 ? setBit(Reg, Bit) : clearBit(Reg, Bit))
+```
 
 # PlatformIO Project Configuration for USBasp
 ```
