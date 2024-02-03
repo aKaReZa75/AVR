@@ -12,6 +12,11 @@ MicroController Fundamental
 [![](https://img.shields.io/badge/uC-GPIO_Part_A-orange)](https://youtu.be/_i_MXrbRf7o)
 [![](https://img.shields.io/badge/uC-GPIO_Part_B-orange)](https://youtu.be/QGhRRsIICUU)
 [![](https://img.shields.io/badge/uC-Assigning_value_to_a_register-orange)](https://youtu.be/kBbZi6WWGiM)
+[![](https://img.shields.io/badge/uC-Practical-orange)](https://youtu.be/5B_eDfAgxZU)
+[![](https://img.shields.io/badge/uC-Display-orange)](https://youtu.be/C2yjVLjOY4c)
+[![](https://img.shields.io/badge/uC-Arduino_BootLoader-orange)](https://youtu.be/zN1l83ps8rc)
+[![](https://img.shields.io/badge/uC-7Segments-orange)](https://youtu.be/ZmDLpSMhs-I)
+[![](https://img.shields.io/badge/uC-Alphanumeric_LCD-orange)](https://youtu.be/wq8CSptCZ9o)
 
 AVR MicroController
 -------------
