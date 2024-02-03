@@ -22,7 +22,7 @@
 #define GPIO_Config_INPUT(_Reg, _Bit) bitClear(_Reg, _Bit)
 #define delay_ms(_delay_msValue) _delay_ms(_delay_msValue)
 
-#define Math_Const_PI  3.141592653589793
+#define Math_Const_PI  3.14159265358979
 #define MATH_Const_EXP 2.71828182845904
 
 #endif
