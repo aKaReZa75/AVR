@@ -7,12 +7,12 @@
  *
  */
 
-#define bitSet(Reg, Bit) (Reg |= (1<<Bit))
-#define bitClear(Reg, Bit) (Reg &= ~(1<<Bit))
-#define bitToggle(Reg, Bit) (Reg ^= 1<<Bit)
-#define bitCheck(Reg, Bit) ((Reg>>Bit) & 0x01)
-#define bitChange(Reg, Bit, Value) (Value == 1 ? bitSet(Reg, Bit) : bitClear(Reg, Bit))
+#define bitSet(_Reg, _Bit) (_Reg |= (1<<_Bit))
+#define bitClear(_Reg, _Bit) (_Reg &= ~(1<<_Bit))
+#define bitToggle(_Reg, _Bit) (_Reg ^= 1<<_Bit)
+#define bitCheck(_Reg, _Bit) ((_Reg>>_Bit) & 0x01)
+#define bitChange(_Reg, _Bit, Value) (Value == 1 ? bitSet(_Reg, _Bit) : bitClear(_Reg, _Bit))
 
-#define delay_ms(delay_msValue) _delay_ms(delay_msValue)
-#define GPIO_Config_OUTPUT(Reg, Bit) bitSet(Reg, Bit)
-#define GPIO_Config_INPUT(Reg, Bit) bitClear(Reg, Bit)
+#define GPIO_Config_OUTPUT(_Reg, _Bit) bitSet(_Reg, _Bit)
+#define GPIO_Config_INPUT(_Reg, _Bit) bitClear(_Reg, _Bit)
+#define delay_ms(_delay_msValue) _delay_ms(_delay_msValue)
