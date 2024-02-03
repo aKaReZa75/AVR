@@ -9,6 +9,8 @@
 #define bitToggle(Reg, Bit) (Reg ^= 1<<Bit)
 #define bitCheck(Reg, Bit) ((Reg>>Bit) & 0x01)
 #define bitChange(Reg, Bit, Value) (Value == 1 ? bitSet(Reg, Bit) : bitClear(Reg, Bit))
+#define bitShiftLeft(Reg, Pos) (Reg = Reg << Pos)
+#define bitShiftRight(Reg, Pos) (Reg = Reg >> Pos)
 #define Conv_16to8_MSB(Value) (Value >> 8)
 #define Conv_16to8_LSB(Value) (Value & 0xFF)
 #define Combine_8to16(valueHigh, valueLow) (valueLow + (valueHigh<<8))
