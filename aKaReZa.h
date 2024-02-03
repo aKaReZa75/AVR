@@ -14,8 +14,6 @@
 #define Combine_8to16(valueHigh, valueLow) (valueLow + (valueHigh<<8))
 
 #define delay_ms(delay_msValue) _delay_ms(delay_msValue)
-
-#define delay_ms(delay_msValue) _delay_ms(delay_msValue)
 #define GPIO_Config_OUTPUT(Reg, Bit) bitSet(Reg, Bit)
 #define GPIO_Config_INPUT(Reg, Bit) bitClear(Reg, Bit)
 
