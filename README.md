@@ -39,13 +39,13 @@ AVR MicroController
 | D2      | PD2       |  SW_1      |     -      |
 | D3      | PD3       |  SW_2      |     -      |
 | D4      | PD4       |  Seg_G     |  LCD_DB4   |
-| D5      | PD5       |  RGB_R     |  LCD_DB5   |
-| D6      | PD6       |  RGB_G     |  LCD_DB6   |
+| D5      | PD5       |  RGB_G     |  LCD_DB5   |
+| D6      | PD6       |  RGB_B     |  LCD_DB6   |
 | D7      | PD7       |  Seg_DP    |  LCD_DB7   |
 | D8      | PB0       |  Digit_1   |  LCD_RS    |
 | D9      | PB1       |  Digit_2   |  LCD_EN    |
 | D10     | PB2       |  Digit_3   |  LCD_BL    |
-| D11     | PB3       |  RGB_B     |     -      |
+| D11     | PB3       |  RGB_R     |     -      |
 | D12     | PB4       |  Digit_4   |     -      |
 | D13     | PB5       |  SW_3      |     -      |
 
