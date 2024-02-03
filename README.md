@@ -21,6 +21,30 @@ AVR MicroController
 [![](https://img.shields.io/badge/AVR-Programing-brown)](https://youtu.be/Kn6aQvtuO08)
 [![](https://img.shields.io/badge/AVR-GPIO_Part_B-brown)](https://youtu.be/xa3nRQx28Nw)
 
+| Arduino | ATMega328 | 7Seg  Oled | LCD Keypad |
+| :---:   | :---:     |  :---:     |   :---:    |
+| A0      | PC0       |  Seg_A     |    Keys    |
+| A1      | PC1       |  Seg_B     |     -      |
+| A2      | PC2       |  Seg_C     |     -      |
+| A3      | PC3       |  Seg_D     |     -      |
+| A4      | PC4       |  SDA       |     -      |
+| A5      | PC5       |  SCL       |     -      |
+| D0      | PD0       |  Seg_E     |     -      |
+| D1      | PD1       |  Seg_F     |     -      |
+| D2      | PD2       |  SW_1      |     -      |
+| D3      | PD3       |  SW_2      |     -      |
+| D4      | PD4       |  Seg_G     |  LCD_DB4   |
+| D5      | PD5       |  RGB_R     |  LCD_DB5   |
+| D6      | PD6       |  RGB_G     |  LCD_DB6   |
+| D7      | PD7       |  Seg_DP    |  LCD_DB7   |
+| D8      | PB0       |  Digit_1   |  LCD_RS    |
+| D9      | PB1       |  Digit_2   |  LCD_EN    |
+| D10     | PB2       |  Digit_3   |  LCD_BL    |
+| D11     | PB3       |  RGB_B     |     -      |
+| D12     | PB4       |  Digit_4   |     -      |
+| D13     | PB5       |  SW_3      |     -      |
+
+
 Contact Us
 -------------
 [![](https://img.shields.io/badge/E-Mail-yellow)](mailto:aKaReZa75@gmail.com)
