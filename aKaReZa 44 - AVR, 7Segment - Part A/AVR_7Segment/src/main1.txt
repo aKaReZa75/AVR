@@ -1,0 +1,50 @@
+#include <avr/io.h>
+#include <util/delay.h>
+
+#define bitSet(Reg, Bit) (Reg |= (1<<Bit))
+#define bitClear(Reg, Bit) (Reg &= ~(1<<Bit))
+#define bitToggle(Reg, Bit) (Reg ^= 1<<Bit)
+#define bitCheck(Reg, Bit) ((Reg>>Bit) & 0x01)
+#define bitChange(Reg, Bit, Value) (Value == 1 ? setBit(Reg, Bit) : clearBit(Reg, Bit))
+#define delay_ms(delay_msValue) _delay_ms(delay_msValue)
+
+uint8_t Segments_CA[16] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90, 0x88, 0x83, 0xC6, 0xA1, 0x86, 0x8E};
+
+int main(void)
+{
+  DDRD = 0xFF; 
+  while(1)
+  {
+    PORTD = Segments_CA[0];
+    delay_ms(1000);
+    PORTD = Segments_CA[1];
+    delay_ms(1000);
+    PORTD = Segments_CA[2];
+    delay_ms(1000);
+    PORTD = Segments_CA[3];
+    delay_ms(1000);
+    PORTD = Segments_CA[4];
+    delay_ms(1000);
+    PORTD = Segments_CA[5];
+    delay_ms(1000);
+    PORTD = Segments_CA[6];
+    delay_ms(1000);
+    PORTD = Segments_CA[7];
+    delay_ms(1000);
+    PORTD = Segments_CA[8];
+    delay_ms(1000);
+    PORTD = Segments_CA[9];
+    delay_ms(1000);
+    PORTD = Segments_CA[10];
+    delay_ms(1000);
+    PORTD = Segments_CA[11];
+    delay_ms(1000);
+    PORTD = Segments_CA[12];
+    delay_ms(1000);
+    PORTD = Segments_CA[13];
+    delay_ms(1000);
+    PORTD = Segments_CA[14];
+    delay_ms(1000);
+    PORTD = Segments_CA[15]; 
+  };
+};
