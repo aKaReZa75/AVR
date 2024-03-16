@@ -30,6 +30,7 @@ AVR MicroController
 [![](https://img.shields.io/badge/AVR-7Segment_Part_A-brown)](https://youtu.be/HGlJtcpjZ-E)
 [![](https://img.shields.io/badge/AVR-7Segment_Part_B-brown)](https://youtu.be/_pwxBJ06aMk)
 [![](https://img.shields.io/badge/AVR-7Segment_Part_C-brown)](https://youtu.be/5OG6KQWCLCA)
+[![](https://img.shields.io/badge/AVR-External_Interrupts-brown)](https://youtu.be/eGV7mYVpWX4)
 
 | Arduino | ATMega328 | 7Seg  Oled | LCD Keypad |
 | :---:   | :---:     |  :---:     |   :---:    |
