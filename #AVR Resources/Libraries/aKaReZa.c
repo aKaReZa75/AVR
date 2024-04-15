@@ -1,4 +1,4 @@
-/* @file     aKaReZa.C                                */                      
+/* @file     aKaReZa.c                                */                      
 /* @brief    AVR microcontollers sourceFile           */
 /* @note     This file is for _AVR_ microcontrollers  */   
 /* @author   Hossein Bagheri                          */
@@ -7,7 +7,7 @@
 /* @linkedin aKaReZa75                                */
 /* @email    aKaReZa75@gmail.com                      */
 
-#include "aKaReZa.c"
+#include "aKaReZa.h"
 
 int main(void)
 {
