@@ -1,3 +1,12 @@
+/* @file     aKaReZa.h                                */                      
+/* @brief    AVR microcontollers headfile             */
+/* @note     This file is for _AVR_ microcontrollers  */   
+/* @author   Hossein Bagheri                          */
+/* @github   aKaReZa75                                */
+/* @youtube  aKaReZa75                                */
+/* @linkedin aKaReZa75                                */
+/* @email    aKaReZa75@gmail.com                      */
+
 #ifndef _aKaReZa_H_
 #define _aKaReZa_H_
 
@@ -19,8 +28,13 @@
 #define Combine_8to16(_valueHigh, _valueLow) (_valueLow + (_valueHigh<<8))
 
 #define GPIO_Config_OUTPUT(_Reg, _Bit) bitSet(_Reg, _Bit)
-#define GPIO_Config_INPUT(_Reg, _Bit)  bitClear(_Reg, _Bit)
+#define GPIO_Config_INPUT(_Reg, _Bit) bitClear(_Reg, _Bit)
 #define delay_ms(_delay_msValue) _delay_ms(_delay_msValue)
+#define globalInt_Enable    bitSet  (SREG, SREG_I)
+#define globalInt_Disable   bitClear(SREG, SREG_I)
+#define intFlag_clear(Reg, Bit) bitSet(Reg, Bit)
+#define Initialize   true
+#define deInitialize false
 
 #define Math_Const_PI  3.14159265358979
 #define MATH_Const_EXP 2.71828182845904

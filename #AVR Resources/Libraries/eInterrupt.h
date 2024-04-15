@@ -1,3 +1,12 @@
+/* @file     eInterrupt.h                             */                      
+/* @brief    AVR External Interrupt Library           */
+/* @note     This file is for _AVR_ microcontrollers  */   
+/* @author   Hossein Bagheri                          */
+/* @github   aKaReZa75                                */
+/* @youtube  aKaReZa75                                */
+/* @linkedin aKaReZa75                                */
+/* @email    aKaReZa75@gmail.com                      */
+
 #ifndef _eInterrupt_H_
 #define _eInterrupt_H_
 
