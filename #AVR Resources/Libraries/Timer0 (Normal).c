@@ -1,3 +1,12 @@
+/* @file     Timer0.c                                 */                      
+/* @brief    AVR microcontollers Tiemr0_Normal Source */
+/* @note     This file is for _AVR_ microcontrollers  */   
+/* @author   Hossein Bagheri                          */
+/* @github   aKaReZa75                                */
+/* @youtube  aKaReZa75                                */
+/* @linkedin aKaReZa75                                */
+/* @email    aKaReZa75@gmail.com                      */
+
 #include "Timer0.h"
 
 ISR(TIMER0_OVF_vect)

@@ -1,4 +1,13 @@
-#include "Timer0.h"
+/* @file     Timer0.c                                 */                      
+/* @brief    AVR microcontollers Tiemr0_CTC Source    */
+/* @note     This file is for _AVR_ microcontrollers  */   
+/* @author   Hossein Bagheri                          */
+/* @github   aKaReZa75                                */
+/* @youtube  aKaReZa75                                */
+/* @linkedin aKaReZa75                                */
+/* @email    aKaReZa75@gmail.com                      */
+
+#include "Timer.h"
 
 ISR(TIMER0_COMPA_vect)
 {
