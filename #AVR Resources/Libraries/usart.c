@@ -1,3 +1,12 @@
+/* @file     usart.c                                  */                      
+/* @brief    AVR microcontollers usart sourceFile     */
+/* @note     This file is for _AVR_ microcontrollers  */   
+/* @author   Hossein Bagheri                          */
+/* @github   aKaReZa75                                */
+/* @youtube  aKaReZa75                                */
+/* @linkedin aKaReZa75                                */
+/* @email    aKaReZa75@gmail.com                      */
+
 #include "usart.h"
 
 bool usart_RxFlag = false;     // True: Rx Compelete

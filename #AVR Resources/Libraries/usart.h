@@ -1,3 +1,12 @@
+/* @file     usart.h                                  */                      
+/* @brief    AVR microcontollers usart Library        */
+/* @note     This file is for _AVR_ microcontrollers  */   
+/* @author   Hossein Bagheri                          */
+/* @github   aKaReZa75                                */
+/* @youtube  aKaReZa75                                */
+/* @linkedin aKaReZa75                                */
+/* @email    aKaReZa75@gmail.com                      */
+
 #ifndef _usart_H_
 #define _usart_H_
 
