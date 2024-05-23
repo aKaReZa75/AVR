@@ -14,8 +14,8 @@
 
 #define __usart_RxBufferSize 33 //32 byte Data + 1 null
 
-#define usart_frameError  bitCheck(UCSR0A, FE0) 
-#define usart_dataOverRun bitCheck(UCSR0A, DOR0)
+#define __usart_frameError  bitCheck(UCSR0A, FE0) 
+#define __usart_dataOverRun bitCheck(UCSR0A, DOR0)
 
 void usart_Init(bool _initStatus);
 void usart_Write(uint8_t  _Data);
