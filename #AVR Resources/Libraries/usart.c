@@ -63,7 +63,7 @@ ISR(USART_RX_vect)
     uint8_t _RXdata;
     
     usart_errFlag = false;
-    usart_errFlag = usart_frameError | usart_dataOverRun | RxBufferOVR_Flag | usart_RxFlag ;
+    usart_errFlag = __usart_frameError | __usart_dataOverRun | RxBufferOVR_Flag | usart_RxFlag ;
     
     _RXdata = UDR0;
 
