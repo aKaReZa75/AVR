@@ -21,6 +21,8 @@
 #define bitClear(_Reg, _Bit)  (_Reg &= ~(1<<_Bit))
 #define bitToggle(_Reg, _Bit) (_Reg ^= 1<<_Bit)
 #define bitCheck(_Reg, _Bit)  ((_Reg>>_Bit) & 0x01)
+#define bitShiftLeft(_Reg, _Pos)  (_Reg = _Reg << _Pos)
+#define bitShiftRight(_Reg, _Pos) (_Reg = _Reg >> _Pos)
 #define bitChange(_Reg, _Bit, Value) (Value == 1 ? bitSet(_Reg, _Bit) : bitClear(_Reg, _Bit))
 #define bitShiftLeft(_Reg, _Pos)  (_Reg = _Reg << _Pos)
 #define bitShiftRight(_Reg, _Pos) (_Reg = _Reg >> _Pos)
