@@ -19,6 +19,10 @@ MicroController Fundamental
 [![](https://img.shields.io/badge/uC-Alphanumeric_LCD-orange)](https://youtu.be/wq8CSptCZ9o)
 [![](https://img.shields.io/badge/uC-Interrupt-orange)](https://youtu.be/Zr2dET7aFKM)
 [![](https://img.shields.io/badge/uC-Timer_Counter-orange)](https://youtu.be/R8XcFXiZaRU)
+[![](https://img.shields.io/badge/uC-Communication_PART_A-orange)](https://youtu.be/CzTxCzfNQtw)
+[![](https://img.shields.io/badge/uC-Communication_PART_B-orange)](https://youtu.be/jNMS3Ukl_1E)
+[![](https://img.shields.io/badge/uC-Analog_Peripherals_PART_A-orange)](https://youtu.be/PrTcroT5kgM)
+[![](https://img.shields.io/badge/uC-Analog_Peripherals_PART_B-orange)](https://youtu.be/F_oOUHInUFk)
 
 AVR MicroController
 -------------
@@ -35,6 +39,8 @@ AVR MicroController
 [![](https://img.shields.io/badge/AVR-Timer_Accurate_Time,_Mode_1-brown)](https://youtu.be/J1_z-FngLbA)
 [![](https://img.shields.io/badge/AVR-Communication,_USART_Part_A-brown)](https://youtu.be/TJEfbymLoTs)
 [![](https://img.shields.io/badge/AVR-Communication,_USART_Part_B-brown)](https://youtu.be/HWJqS9NjYIA)
+[![](https://img.shields.io/badge/AVR-Communication,_USART_Part_B-brown)](https://youtu.be/HWJqS9NjYIA)
+[![](https://img.shields.io/badge/AVR-Analog,_ADC-brown)](https://youtu.be/SJJGwX5tNis)
 
 | Arduino | ATMega328 | 7Seg  Oled | LCD Keypad |
 | :---:   | :---:     |  :---:     |   :---:    |
