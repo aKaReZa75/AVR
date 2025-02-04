@@ -37,7 +37,7 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 ## Development Tools
 - **IDEs**: VScode, PlatformIO.
 - **Programmers**: USBasp, AVR MKII, TNM.
-- **Debuggers**: USB to TTL (UART).
+- **Debuggers**: Serial debugging via UART.
 
 
 # 💻 How to Use Git and GitHub
