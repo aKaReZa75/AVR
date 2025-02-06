@@ -61,6 +61,13 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 - [Visual Studio Code](https://code.visualstudio.com/download)
   ---  
   To download the latest version of VsCode, the editor used in the tutorial, visit this link.
+
+- [Common Microcontroller Concepts](https://github.com/aKaReZa75/Microcontroller)
+  ---  
+  This document covers foundational topics shared by all microcontrollers, regardless of architecture.   
+  It explains general principles—such as how USART works—without device-specific implementation details, which are covered in individual videos.    
+  This central resource prevents redundancy and gives you a solid theoretical base before moving to practical setups.
+
   
 - [Minimun Hardware](./minHW.md)  
   ---  
