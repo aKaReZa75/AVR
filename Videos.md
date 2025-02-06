@@ -6,24 +6,23 @@ The purpose of these short descriptions is to give a clear and concise understan
 > [!IMPORTANT]
 In this section, only AVR-related videos are available. These videos are generally divided into two main categories:
 >
-1. **General Concepts and Basics:**  
+> 1. **General Concepts and Basics:**  
    This part includes videos that provide foundational knowledge and general principles of microcontrollers. Videos in this category typically begin with the word *`Microcontroller`*.
->
-   - **Example:** In the video "*aKaReZa 45 - Microcontroller, Interrupts*", the overall functionality and applications of interrupts across different types of microcontrollers are explained. This helps build a solid understanding of the interrupt mechanism before diving into specific implementations.  
+>      - **Example:** In the video "*aKaReZa 45 - Microcontroller, Interrupts*", the overall functionality and applications of interrupts across different types of microcontrollers are explained. This helps build a solid understanding of the interrupt mechanism before diving into specific implementations.  
 >    
-2. **Microcontroller-Specific Implementations:**  
+> 2. **Microcontroller-Specific Implementations:**  
     "This part focuses on detailed setups, configurations, and practical demonstrations tailored to a specific microcontroller.  
     Videos in this category are identified by keywords related to specific microcontroller families such as *`AVR`*, *`STM32`*, *`STM8`*, *`ESP8266`*, *`ESP32`*, and *`PIC`*.
->
-   - **Example for AVR:** In the video "*aKaReZa 55 - AVR, External Interrupts*", the setup and detailed explanation of external interrupts in `AVR` microcontrollers are provided, along with practical tests and real-world examples.  
+>      - **Example for AVR:** In the video "*aKaReZa 55 - AVR, External Interrupts*", the setup and detailed explanation of external interrupts in `AVR` microcontrollers are provided, along with practical tests and real-world examples.  
 
 > [!NOTE]
-1. It is strongly advised to first watch the general concept videos (identified by the keyword *`Microcontroller`*) to build a solid theoretical foundation. 
-2. Once you have a good understanding, proceed to the microcontroller-specific videos (identified by their respective keywords such as *`AVR`*, *`STM32`*, etc.) to see how these concepts are applied in practice.  
+> 1. It is strongly advised to first watch the general concept videos (identified by the keyword *`Microcontroller`*) to build a solid theoretical foundation. 
+> 2. Once you have a good understanding, proceed to the microcontroller-specific videos (identified by their respective keywords such as *`AVR`*, *`STM32`*, etc.) to see how these concepts are applied in practice.  
 
 > [!TIP]  
-- The prerequisites for each video are clearly mentioned at the beginning of the respective video.  
-- For a complete and organized list of all fundamental topics along with their detailed explanations, visit: [Microcontroller Fundamental Videos](https://github.com/aKaReZa75/Microcontroller/Videos.md)
+> - The prerequisites for each video are clearly mentioned at the beginning of the respective video.  
+> - For a complete and organized list of all fundamental topics along with their detailed explanations, visit:  
+>    -  [Microcontroller Fundamental Videos](https://github.com/aKaReZa75/Microcontroller/Videos.md)
 
 
 ```plaintext
