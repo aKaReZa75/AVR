@@ -39,6 +39,33 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 - **Programmers**: USBasp, AVR MKII, TNM.
 - **Debuggers**: Serial debugging via UART.
 
+# 🔗 Resources
+  Here you'll find a collection of useful links and documents related to the AVR microcontroller and its applications.   
+  These resources include datasheets, tutorials, and essential tools to get you started and guide you through.
+  
+> [!TIP]
+> The resources are detailed in the sections below.  
+> To access any of them, simply click on the corresponding blue link.
+
+- [YouTube PlayList](./Videos.md)
+  ---  
+  All educational videos related to this topic are available at this link.  
+
+- [Datasheet](https://www.mediafire.com/file/zeqbn8c3r5qh07u/ATmega328P%252C_Datasheet.pdf/file)
+  ---  
+  You can download the relevant datasheet from this link. 
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+  ---  
+  To download the latest version of VsCode, the editor used in the tutorial, visit this link.
+  
+- [Minimun Hardware](./minHW.md)  
+  ---  
+  This document explains the minimal required hardware setup to power up and properly boot the AVR.
+
+- [bitWise Maros](./Macros.md)  
+  ---  
+  This document explains the minimal required hardware setup to power up and properly boot the ESP8266. It ensures stable operation and avoids unexpected boot failures.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
