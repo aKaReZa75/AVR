@@ -4,7 +4,7 @@ These summaries provide an overview of the topics covered in each video, allowin
 The purpose of these short descriptions is to give a clear and concise understanding of each video's subject matter.
 
 > [!IMPORTANT]
-In this section, only AVR-related videos are available. These videos are generally divided into two main categories:
+In this section, only **AVR**-related videos are available. These videos are generally divided into two main categories:
 >
 > 1. **General Concepts and Basics:**  
    This part includes videos that provide foundational knowledge and general principles of microcontrollers. Videos in this category typically begin with the word *`Microcontroller`*.
