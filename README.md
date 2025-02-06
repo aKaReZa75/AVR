@@ -50,7 +50,7 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 > The resources are detailed in the sections below.  
 > To access any of them, simply click on the corresponding blue link.
 
-- [YouTube PlayList](./Videos.md)
+- [Video PlayList](./Videos.md)
   ---  
   All educational videos related to this topic are available at this link.  
 
