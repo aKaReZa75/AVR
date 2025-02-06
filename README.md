@@ -67,7 +67,12 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   This document covers foundational topics shared by all microcontrollers, regardless of architecture.   
   It explains general principles—such as how USART works—without device-specific implementation details, which are covered in individual videos.    
   This central resource prevents redundancy and gives you a solid theoretical base before moving to practical setups.
-  
+
+- [Educational Resources](./Educational.md)
+  ---  
+  This document provides a concise summary of the educational videos on AVR microcontrollers. It includes key points, sample codes, and header files from those sections.  
+  For example, if the video explains setting up an 8-bit timer in CTC mode and mentions that the process is similar for 16-bit timers, this document complements the videos by also providing setup examples for 16-bit timers in CTC mode.
+
 - [Minimun Hardware](./minHW.md)  
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the AVR.
