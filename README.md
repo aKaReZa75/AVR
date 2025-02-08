@@ -62,11 +62,6 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   To download the latest version of VsCode, the editor used in the tutorial, visit this link.
 
-- [Educational Resources](./Educational.md)
-  ---  
-  This document provides a concise summary of the educational videos on AVR microcontrollers. It includes key points, sample codes, and header files from those sections.  
-  For example, if the video explains setting up an 8-bit timer in CTC mode and mentions that the process is similar for 16-bit timers, this document complements the videos by also providing setup examples for 16-bit timers in CTC mode.
-
 - [Minimun Hardware](./minHW.md)  
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the AVR.
@@ -74,6 +69,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 - [bitWise Maros](./Macros.md)  
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the ESP8266. It ensures stable operation and avoids unexpected boot failures.
+
+- [GPIO (General-purpose input/output)](https://github.com/aKaReZa75/AVR_GPIO)  
+  ---  
+    This repository covers GPIO in AVR microcontrollers. It introduces the relevant registers and provides examples of how to use AVR pins for input and output.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
