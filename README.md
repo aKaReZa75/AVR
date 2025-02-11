@@ -74,6 +74,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the AVR.
 
+- [AVR RawProject](https://github.com/aKaReZa75/AVR_RawProject)  
+  ---  
+  This repository contains pre-tested and ready-to-use files for starting AVR projects in PlatformIO and VSCode. With these files, you can quickly set up a new AVR project by simply copying and pasting them into your workspace, saving time and effort for efficient development.
+
 - [Fuse Bits Configuration Guide](./fuseBits.md)  
   ---  
   In this document, you'll learn how to properly configure the fuse bits for the **ATmega328** microcontroller. It covers the necessary settings for clock sources, startup times, bootloader configurations, and more, ensuring that your microcontroller is set up optimally for your project needs.
