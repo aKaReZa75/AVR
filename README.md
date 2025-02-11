@@ -82,9 +82,9 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   In this document, you'll learn how to properly configure the fuse bits for the **ATmega328** microcontroller. It covers the necessary settings for clock sources, startup times, bootloader configurations, and more, ensuring that your microcontroller is set up optimally for your project needs.
 
-- [bitWise Maros](./Macros.md)  
+- [bitWise Macros](./Macros.md)  
   ---  
-  This document explains the minimal required hardware setup to power up and properly boot the ESP8266. It ensures stable operation and avoids unexpected boot failures.
+  This document provides a collection of macros that perform **bitwise operations** on registers. We define each macro in detail and explain how it works, with practical examples to demonstrate their functionality in embedded programming.
 
 - [GPIO (General-purpose input/output)](https://github.com/aKaReZa75/AVR_GPIO)  
   ---  
