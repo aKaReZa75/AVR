@@ -66,6 +66,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   Learning C specifically for microcontrollers is crucial for effective embedded systems programming. This tutorial provides a comprehensive guide to mastering Embedded C, helping you write efficient and reliable code for various microcontroller architectures. Click the link to start your journey into embedded programming.
 
+- [Microcontroller Fundamentals](https://github.com/aKaReZa75/Microcontroller)  
+  ---  
+  This repository covers the **fundamental concepts and common principles** of microcontrollers. Learn about **microcontroller architectures, basic peripherals, and essential programming techniques** used in embedded systems. This resource is perfect for anyone starting their journey into the world of microcontrollers, providing a solid foundation for advanced topics.
+
 - [Minimun Hardware](./minHW.md)  
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the AVR.
