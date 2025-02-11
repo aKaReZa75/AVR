@@ -74,6 +74,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the AVR.
 
+- [Fuse Bits Configuration Guide](./FuseBits.md)  
+  ---  
+  In this document, you'll learn how to properly configure the fuse bits for the **ATmega328** microcontroller. It covers the necessary settings for clock sources, startup times, bootloader configurations, and more, ensuring that your microcontroller is set up optimally for your project needs.
+
 - [bitWise Maros](./Macros.md)  
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the ESP8266. It ensures stable operation and avoids unexpected boot failures.
