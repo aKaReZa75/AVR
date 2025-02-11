@@ -62,6 +62,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   To download the latest version of VsCode, the editor used in the tutorial, visit this link.
 
+- [Embedded C](https://github.com/aKaReZa75/Embedded-C)  
+  ---  
+  Learning C specifically for microcontrollers is crucial for effective embedded systems programming. This tutorial provides a comprehensive guide to mastering Embedded C, helping you write efficient and reliable code for various microcontroller architectures. Click the link to start your journey into embedded programming.
+
 - [Minimun Hardware](./minHW.md)  
   ---  
   This document explains the minimal required hardware setup to power up and properly boot the AVR.
