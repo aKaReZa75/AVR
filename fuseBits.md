@@ -23,6 +23,10 @@ The ATmega328 has three main categories of fuse bits:
 
 Each of these categories serves specific purposes and can affect different aspects of the microcontroller's behavior.
 
+[aKaReZa 12 - AVR, fuseBits](https://youtu.be/fGsOeDv1-gI)  
+---
+  In the this video, we explore **fuse bits** and how to configure them for the ATmega328. This video will walk you through the process of setting the fuse bits correctly to ensure your microcontroller operates as expected.
+
 # 1. **Low Fuse Bits**
 The low fuse bits control settings such as the clock source, startup time, and watchdog timer.
 
