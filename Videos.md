@@ -35,11 +35,10 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │
 ├── GPIO (General Purpose Input Output)
 │   ├── [aKaReZa 20 - AVR, GPIO - Part A]
-│   └── [aKaReZa 23 - AVR, GPIO - Part B]
+│   ├── [aKaReZa 23 - AVR, GPIO - Part B]
+│   └── External Interrupts
+│       └──[aKaReZa 55 - AVR, External Interrupts]
 │
-├── External Interrupts
-│   └── [aKaReZa 55 - AVR, External Interrupts]
-|
 ├── Display Interfaces
 │   ├── 7-Segment Displays
 │   │   ├── [aKaReZa 44 - AVR, 7Segment - Part A]
