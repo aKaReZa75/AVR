@@ -90,6 +90,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
     This repository covers GPIO in AVR microcontrollers. It introduces the relevant registers and provides examples of how to use AVR pins for input and output.
 
+- [External Interrupts](https://github.com/aKaReZa75/AVR_External_Interrupts)  
+  ---  
+  This repository covers external interrupts on the ATmega328 microcontroller, including INT0, INT1, and Pin Change Interrupts (PCINT), and demonstrates how to use them for responsive and asynchronous event handling.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
