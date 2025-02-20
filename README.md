@@ -98,6 +98,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository provides a library for using and configuring an alphanumeric 16x2 LCD with AVR microcontrollers in 4-bit parallel mode.
 
+- [USART Communication](https://github.com/aKaReZa75/AVR_USART)  
+  ---  
+  This repository covers the implementation of USART (Universal Synchronous Asynchronous Receiver Transmitter) communication in AVR microcontrollers. It demonstrates how to configure and use USART for serial communication, which is essential for data exchange between microcontrollers or between a microcontroller and a computer. Explore practical examples and learn how to set up and use this important communication protocol effectively in your embedded projects.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
