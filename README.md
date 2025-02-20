@@ -94,7 +94,7 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository covers external interrupts on the ATmega328 microcontroller, including INT0, INT1, and Pin Change Interrupts (PCINT), and demonstrates how to use them for responsive and asynchronous event handling.
 
-- [AVR_Display_aLCD_Parallel](https://github.com/aKaReZa75/AVR_Display_aLCD_Parallel)  
+- [16x2 Alphanumeric Display with AVR in parallel mode](https://github.com/aKaReZa75/AVR_Display_aLCD_Parallel)  
   ---  
   This repository provides a library for using and configuring an alphanumeric 16x2 LCD with AVR microcontrollers in 4-bit parallel mode.
 
