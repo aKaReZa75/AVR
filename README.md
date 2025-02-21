@@ -94,6 +94,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository covers external interrupts on the ATmega328 microcontroller, including INT0, INT1, and Pin Change Interrupts (PCINT), and demonstrates how to use them for responsive and asynchronous event handling.
 
+- [AVR 7Segments](https://github.com/aKaReZa75/AVR_7Segments)  
+  ---  
+  This repository provides a library for controlling 7-segment displays using AVR microcontrollers. It includes code for managing both common cathode and common anode displays, as well as demonstrating how to display numbers and characters efficiently.
+
 - [16x2 Alphanumeric Display in parallel mode](https://github.com/aKaReZa75/AVR_Display_aLCD_Parallel)  
   ---  
   This repository provides a library for using and configuring an alphanumeric 16x2 LCD with AVR microcontrollers in 4-bit parallel mode.
@@ -105,6 +109,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 - [Analog to Digital Converter](https://github.com/aKaReZa75/AVR_ADC)  
   ---  
   This repository covers the **Analog-to-Digital Converter (ADC)** in AVR microcontrollers, specifically the ATMEGA328. It provides examples, code, and guides to help you work with ADC channels for precise analog-to-digital conversions in your embedded projects.
+
+- [AVR Timer0](https://github.com/aKaReZa75/AVR_Timer0)  
+  ---  
+  This repository contains a comprehensive guide for using Timer0 in AVR microcontrollers. It includes code examples and explanations of how to set up and use Timer0 for various time-based tasks, including generating delays and creating precise timing events.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
