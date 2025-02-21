@@ -102,6 +102,10 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository provides a guide on implementing USART communication in AVR microcontrollers for serial data exchange. It includes practical examples to help you effectively set up and use this protocol in embedded projects.
 
+- [Analog to Digital Converter](https://github.com/aKaReZa75/AVR_ADC)  
+  ---  
+  This repository covers the **Analog-to-Digital Converter (ADC)** in AVR microcontrollers, specifically the ATMEGA328. It provides examples, code, and guides to help you work with ADC channels for precise analog-to-digital conversions in your embedded projects.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
