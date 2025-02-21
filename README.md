@@ -94,13 +94,13 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository covers external interrupts on the ATmega328 microcontroller, including INT0, INT1, and Pin Change Interrupts (PCINT), and demonstrates how to use them for responsive and asynchronous event handling.
 
-- [16x2 Alphanumeric Display with AVR in parallel mode](https://github.com/aKaReZa75/AVR_Display_aLCD_Parallel)  
+- [16x2 Alphanumeric Display in parallel mode](https://github.com/aKaReZa75/AVR_Display_aLCD_Parallel)  
   ---  
   This repository provides a library for using and configuring an alphanumeric 16x2 LCD with AVR microcontrollers in 4-bit parallel mode.
 
 - [USART Communication](https://github.com/aKaReZa75/AVR_USART)  
   ---  
-  This repository covers the implementation of USART (Universal Synchronous Asynchronous Receiver Transmitter) communication in AVR microcontrollers. It demonstrates how to configure and use USART for serial communication, which is essential for data exchange between microcontrollers or between a microcontroller and a computer. Explore practical examples and learn how to set up and use this important communication protocol effectively in your embedded projects.
+  This repository provides a guide on implementing USART communication in AVR microcontrollers for serial data exchange. It includes practical examples to help you effectively set up and use this protocol in embedded projects.
 
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
