@@ -98,7 +98,7 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository provides a library for controlling 7-segment displays using AVR microcontrollers. It includes code for managing both common cathode and common anode displays, as well as demonstrating how to display numbers and characters efficiently.
 
-- [16x2 Alphanumeric Display in parallel mode](https://github.com/aKaReZa75/AVR_Display_aLCD_Parallel)  
+- [16x2 Alphanumeric Display in parallel mode](https://github.com/aKaReZa75/AVR_Display_aLCD)  
   ---  
   This repository provides a library for using and configuring an alphanumeric 16x2 LCD with AVR microcontrollers in 4-bit parallel mode.
 
