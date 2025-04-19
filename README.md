@@ -6,6 +6,12 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
 > [!CAUTION]
 > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
 
+> [!TIP]
+> If you're looking to better understand how to navigate and use my GitHub repositories — including exploring their structure, downloading or cloning projects, submitting issues, and asking questions 
+> everything you need is clearly explained in this video:  
+> [aKaReZa 95 - Programming, Git - PART B](https://youtu.be/zYiUItVFRqQ)   
+> Make sure to check it out!
+
 ## Key Features
 - **Architecture**: 8-bit AVR RISC architecture.
 - **Flash Memory**: 32 KB of in-system self-programmable flash memory.
