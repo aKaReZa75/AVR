@@ -3,9 +3,6 @@
 The ATmega328 is a low-power, 8-bit microcontroller based on the AVR-enhanced RISC architecture.   
 It is one of the most popular microcontrollers in the AVR family, widely used in various embedded systems and DIY projects, including Arduino boards.
 
-> [!CAUTION]
-> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
-
 <table>
   <tr>
   <td valign="top">
@@ -24,7 +21,17 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
              alt="aKaReZa 95 - Programming, Git - PART B Thumbnail"/>
       </a>
     </td>
+
+  </td>
   </tr>
+  <tr>
+  <td colspan="2">
+
+  > [!CAUTION]
+  > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+      
+  </td>
+  </tr>  
 </table>
 
 ## Key Features
