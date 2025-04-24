@@ -61,63 +61,259 @@ In this section, only **AVR**-related videos are available. These videos are gen
         └── [aKaReZa 67 - AVR, Communication, USART - Part B]
 ```
 
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/MzOPimZQYaU">aKaReZa 6 – AVR, Introduction</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Introduction to AVR microcontrollers, their families, ATMEGA328, and necessary hardware connections.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/MzOPimZQYaU">
+        <img src="https://img.youtube.com/vi/MzOPimZQYaU/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 6 – AVR, Introduction Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 6 - AVR, Introduction](https://youtu.be/MzOPimZQYaU)  
-    ---  
-    Introduction to AVR microcontrollers, their families, ATMEGA328, and necessary hardware connections.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/fGsOeDv1-gI">aKaReZa 12 – AVR, fuseBits</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Introduction to fuse bits in AVR microcontrollers, including Extended, High, and Low fuse bits, as well as lock bits, clock synchronization issues, and how to use online fuse bit calculators.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/fGsOeDv1-gI">
+        <img src="https://img.youtube.com/vi/fGsOeDv1-gI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 12 – AVR, fuseBits Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 12 - AVR, fuseBits](https://youtu.be/fGsOeDv1-gI)  
-    ---  
-    Introduction to fuse bits in AVR microcontrollers, including Extended, High, and Low fuse bits, as well as lock bits, clock synchronization issues, and how to use online fuse bit calculators.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/_0uQSh0qBBo">aKaReZa 20 – AVR, GPIO - Part A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Introduction to AVR GPIO control registers, pin configuration, simulation in Proteus, coding in PlatformIO and VsCode, timing issues, and code readability improvements using macros.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/_0uQSh0qBBo">
+        <img src="https://img.youtube.com/vi/_0uQSh0qBBo/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 20 – AVR, GPIO - Part A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 20 - AVR, GPIO - Part A](https://youtu.be/_0uQSh0qBBo)  
-    ---  
-    Introduction to AVR GPIO control registers, pin configuration, simulation in Proteus, coding in PaltformIO and VsCode, timing issues, and code readability improvements using macros.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Kn6aQvtuO08">aKaReZa 22 – AVR, Programming</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to program AVR microcontrollers using various programmers and methods, including TNM2000+, USBasp, MKII, ZIF socket, OnBoard, and directly via VsCode's Upload button.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/Kn6aQvtuO08">
+        <img src="https://img.youtube.com/vi/Kn6aQvtuO08/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 22 – AVR, Programming Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 22 - AVR, Programming](https://youtu.be/Kn6aQvtuO08)  
-    ---  
-    Learn how to program AVR microcontrollers using various programmers and methods, including TNM2000+, USBasp, MKII, ZIF socket, OnBoard, and directly via VsCode's Upload button.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/xa3nRQx28Nw">aKaReZa 23 – AVR, GPIO - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn about AVR GPIO control registers, configuring pins as input, reading pin status, simulating AVR in Proteus, coding in PlatformIO and VsCode, using internal pull-up, and using if statements for input.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/xa3nRQx28Nw">
+        <img src="https://img.youtube.com/vi/xa3nRQx28Nw/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 23 – AVR, GPIO - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 23 - AVR, GPIO - PART B](https://youtu.be/xa3nRQx28Nw)  
-    ---  
-    Learn about AVR GPIO control registers, configuring pins as input, reading pin status, simulating AVR in Proteus, coding in PaltformIO and VsCode, using internal pull-up, and using if statements for input.
-
-- [aKaReZa 44 - AVR, 7Segment - Part A](https://youtu.be/HGlJtcpjZ-E)  
-    ---  
-    Learn how to set up a common anode 7-segment display with an AVR microcontroller on a breadboard, and then multiplex a four-digit 7-segment display using a custom shield to improve code readability.
-
-- [aKaReZa 47 - AVR, 7Segment - Part B](https://youtu.be/_pwxBJ06aMk)  
-    ---  
-    Continuation of setting up 7-segment displays, building a counter, adding button functionality, displaying digits, optimizing code, and adding macros.
-
-- [aKaReZa 53 - AVR, 7Segment - Part C](https://youtu.be/5OG6KQWCLCA)  
-    ---  
-    Continuation of setting up 7-segment displays, addressing three software issues: modular code writing, display refresh during button press, and one-second counting.
-
-- [aKaReZa 55 - AVR, External Interrupts](https://youtu.be/eGV7mYVpWX4)  
-    ---  
-    Learn how to set up and use external interrupts on AVR microcontrollers, specifically focusing on the ATMEGA328. Understand interrupt flags and when to manually clear them.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/HGlJtcpjZ-E">aKaReZa 44 – AVR, 7Segment - Part A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to set up a common anode 7-segment display with an AVR microcontroller on a breadboard, and then multiplex a four-digit 7-segment display using a custom shield to improve code readability.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/HGlJtcpjZ-E">
+        <img src="https://img.youtube.com/vi/HGlJtcpjZ-E/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 44 – AVR, 7Segment - Part A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
   
-- [aKaReZa 57 - AVR, Alphanumeric LCD](https://youtu.be/hNRjyU02NoM)  
-    ---  
-    Learn how to set up an alphanumeric LCD with AVR microcontrollers, use library functions, display decimal numbers, create custom and Persian characters, and adjust the display contrast.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/_pwxBJ06aMk">aKaReZa 47 – AVR, 7Segment - Part B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continuation of setting up 7-segment displays, building a counter, adding button functionality, displaying digits, optimizing code, and adding macros.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/_pwxBJ06aMk">
+        <img src="https://img.youtube.com/vi/_pwxBJ06aMk/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 47 – AVR, 7Segment - Part B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 59 - AVR, Timer, Accurate Time, Mode 1](https://youtu.be/J1_z-FngLbA)  
-    ---  
-    Learn about Timer-Counter 0 in AVR microcontrollers, Normal and CTC modes, Overflow and Compare Match interrupts, precise timing, function execution time calculation, and 7-segment display integration.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/5OG6KQWCLCA">aKaReZa 53 – AVR, 7Segment - Part C</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continuation of setting up 7-segment displays, addressing three software issues: modular code writing, display refresh during button press, and one-second counting.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/5OG6KQWCLCA">
+        <img src="https://img.youtube.com/vi/5OG6KQWCLCA/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 53 – AVR, 7Segment - Part C Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 66 - AVR, Communication, USART - Part A](https://youtu.be/TJEfbymLoTs)  
-    ---  
-    Learn about USART features and specifications in the ATMega328 microcontroller, including baud rate calculation, registers, single character and string transmission, escape sequences, data frames, and differences in simulation and practical testing.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/eGV7mYVpWX4">aKaReZa 55 – AVR, External Interrupts</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to set up and use external interrupts on AVR microcontrollers, specifically focusing on the ATMEGA328. Understand interrupt flags and when to manually clear them.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/eGV7mYVpWX4">
+        <img src="https://img.youtube.com/vi/eGV7mYVpWX4/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 55 – AVR, External Interrupts Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 67 - AVR, Communication, USART - Part B](https://youtu.be/HWJqS9NjYIA)  
-    ---  
-    Continuation of USART communication, discussing escape sequences, byte reception, baud rate errors and solutions, double speed mode, data reception with interrupts, circular buffer, USART flags, debugging, and data frames.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/hNRjyU02NoM">aKaReZa 57 – AVR, Alphanumeric LCD</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to set up an alphanumeric LCD with AVR microcontrollers, use library functions, display decimal numbers, create custom and Persian characters, and adjust the display contrast.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/hNRjyU02NoM">
+        <img src="https://img.youtube.com/vi/hNRjyU02NoM/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 57 – AVR, Alphanumeric LCD Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
-- [aKaReZa 77 - AVR, Analog - ADC](https://youtu.be/SJJGwX5tNis)  
-    ---  
-    Learn about the features of the Analog-to-Digital Converter (ADC) in AVR microcontrollers, including block diagrams, control and data registers, voltage measurement, multi-channel measurement, analog temperature sensor connection, internal temperature sensor usage, and noise canceler capabilities.
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/J1_z-FngLbA">aKaReZa 59 – AVR, Timer, Accurate Time, Mode 1</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn about Timer-Counter 0 in AVR microcontrollers, Normal and CTC modes, Overflow and Compare Match interrupts, precise timing, function execution time calculation, and 7-segment display integration.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/J1_z-FngLbA">
+        <img src="https://img.youtube.com/vi/J1_z-FngLbA/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 59 – AVR, Timer, Accurate Time, Mode 1 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/TJEfbymLoTs">aKaReZa 66 – AVR, Communication, USART - Part A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn about USART features and specifications in the ATMega328 microcontroller, including baud rate calculation, registers, single character and string transmission, escape sequences, data frames, and differences in simulation and practical testing.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/TJEfbymLoTs">
+        <img src="https://img.youtube.com/vi/TJEfbymLoTs/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 66 – AVR, Communication, USART - Part A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
 
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/HWJqS9NjYIA">aKaReZa 67 – AVR, Communication, USART - Part B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continuation of USART communication, discussing escape sequences, byte reception, baud rate errors and solutions, double speed mode, data reception with interrupts, circular buffer, USART flags, debugging, and data frames.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/HWJqS9NjYIA">
+        <img src="https://img.youtube.com/vi/HWJqS9NjYIA/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 67 – AVR, Communication, USART - Part B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/SJJGwX5tNis">aKaReZa 77 – AVR, Analog - ADC</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn about the features of the Analog-to-Digital Converter (ADC) in AVR microcontrollers, including block diagrams, control and data registers, voltage measurement, multi-channel measurement, analog temperature sensor connection, internal temperature sensor usage, and noise canceler capabilities.
+      </p>
+    </td>
+    <td width="360" valign="top" style="padding: 0;">
+      <a href="https://youtu.be/SJJGwX5tNis">
+        <img src="https://img.youtube.com/vi/SJJGwX5tNis/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 77 – AVR, Analog - ADC Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # 🌟 Support Me
 If you found this repository useful:
