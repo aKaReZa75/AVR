@@ -49,7 +49,7 @@ In this section, only **AVR**-related videos are available. These videos are gen
 |
 ├── Timers and Counters
 │   └── Timer0
-│       └── [aKaReZa 59 - AVR, Timer, Accurate Time, Mode 1]
+│       └── [aKaReZa 59 - AVR, Timer, Accurate Time - Mode 1]
 │
 ├── Analog Peripherals
 │   └── ADC (Analog-to-Digital Converter)
@@ -245,7 +245,7 @@ In this section, only **AVR**-related videos are available. These videos are gen
   <tr>
     <td valign="top" style="padding: 0 10px;">
       <h3 style="margin: 0;">
-        <a href="https://youtu.be/J1_z-FngLbA">aKaReZa 59 – AVR, Timer, Accurate Time, Mode 1</a>
+        <a href="https://youtu.be/J1_z-FngLbA">aKaReZa 59 – AVR, Timer, Accurate Time - Mode 1</a>
       </h3>
       <p style="margin: 8px 0 0;">
         Learn about Timer-Counter 0 in AVR microcontrollers, Normal and CTC modes, Overflow and Compare Match interrupts, precise timing, function execution time calculation, and 7-segment display integration.
