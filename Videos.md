@@ -49,7 +49,8 @@ In this section, only **AVR**-related videos are available. These videos are gen
 |
 ├── Timers and Counters
 │   └── Timer0
-│       └── [aKaReZa 59 - AVR, Timer, Accurate Time - Mode 1]
+│       ├── [aKaReZa 59 - AVR, Timer, Accurate Time - Mode 1]
+│       └── [aKaReZa 105 - AVR, Timer, PWM - Mode 2]
 │
 ├── Analog Peripherals
 │   └── ADC (Analog-to-Digital Converter)
@@ -313,6 +314,25 @@ In this section, only **AVR**-related videos are available. These videos are gen
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/1GhoYor4q6M">aKaReZa 105 – AVR, Timer, PWM - Mode 2</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        A deep dive into PWM modes in AVR microcontrollers, covering Fast and Phase Correct PWM, dual slope advantages, Dead Time, and real-world applications in motors, converters, and LED drivers. Ideal for mastering PWM in practical engineering contexts.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/1GhoYor4q6M">
+        <img src="https://img.youtube.com/vi/1GhoYor4q6M/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 105 – AVR, Timer, PWM - Mode 2 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+  
 </table>
 
 # 🌟 Support Me
