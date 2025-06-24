@@ -1,0 +1,55 @@
+#include "aKaReZa.h"
+
+#define _servoDeg(x) OCR0B = 0.0611*x + 4.833
+
+uint8_t deg = 0;
+
+int main(void)
+{
+  // Mode: phase, TOP:OCR0A
+  bitSet(TCCR0A, WGM00);
+  bitClear(TCCR0A, WGM01);
+  bitSet(TCCR0B, WGM02);
+
+  // Prescalre: 1024
+  bitSet(TCCR0B, CS00);
+  bitClear(TCCR0B, CS01);
+  bitSet(TCCR0B, CS02);
+
+  // OCR0B -> Non-inv
+  bitClear(TCCR0A, COM0B0);
+  bitSet(TCCR0A, COM0B1);
+
+  GPIO_Config_OUTPUT(DDRD, 5);
+
+  OCR0A = 156;
+  while(1)
+  {
+    _servoDeg(0);
+    delay_ms(1000);
+
+    _servoDeg(90);
+    delay_ms(1000);
+
+    _servoDeg(180);
+    delay_ms(1000); 
+
+    _servoDeg(90);
+    delay_ms(1000);
+
+    _servoDeg(0);
+    delay_ms(1000);
+
+    for(deg = 0; deg < 180; deg++)
+    {
+      _servoDeg(deg); 
+      delay_ms(25);
+    };
+      
+    for(deg = 180; deg > 1; deg--)
+    {
+      _servoDeg(deg); 
+      delay_ms(25);
+    }; 
+  };
+};
