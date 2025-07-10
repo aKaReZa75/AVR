@@ -332,6 +332,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/_RbzWU-bHc4">aKaReZa 108 – AVR, Servo Motor</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to control a servo motor using AVR timers by generating precise 50Hz PWM signals. This video covers Timer0 basics, advanced Timer1 modes (Mode 14 and Mode 10), and high-precision angle control—perfect for mastering servo control in embedded systems.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/_RbzWU-bHc4">
+        <img src="https://img.youtube.com/vi/_RbzWU-bHc4/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 108 – AVR, Servo Motor Thumbnail"/>
+      </a>
+    </td>
+  </tr>
   
 </table>
 
