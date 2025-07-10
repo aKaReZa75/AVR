@@ -56,10 +56,12 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │   └── ADC (Analog-to-Digital Converter)
 │       └── [aKaReZa 77 - AVR, Analog - ADC]
 │
-└──  Communication Protocols
-    └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
-        ├── [aKaReZa 66 - AVR, Communication, USART - Part A]
-        └── [aKaReZa 67 - AVR, Communication, USART - Part B]
+├──  Communication Protocols
+│    └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
+│        ├── [aKaReZa 66 - AVR, Communication, USART - Part A]
+│        └── [aKaReZa 67 - AVR, Communication, USART - Part B]
+└──  Motors
+     └── [aKaReZa 108 - AVR, Servo Motor]
 ```
 
 <table style="border-collapse: collapse;">
