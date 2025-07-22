@@ -27,39 +27,39 @@ In this section, only **AVR**-related videos are available. These videos are gen
 
 ```plaintext
 📁 AVR Microcontrollers
-│   ├── Fundamental
-│   │   ├── [aKaReZa 6 - AVR, Introduction]
-│   │   │   ├─ MCU Families — Overview and ATMEGA328 specs.
-│   │   │   ├─ Clocking — Choosing clock sources.
-│   │   │   └─ Power Up — Minimum hardware requirements.
-│   │   │
-│   │   ├── [aKaReZa 22 - AVR, Programming]
-│   │   │   ├─ Tools — TNM2000+, USBasp, MKII, VsCode Upload.
-│   │   │   └─ Methods — ZIF socket and onboard programming.
-│   │   │
-│   │   └── [aKaReZa 12 - AVR, fuseBits]
-│   │       ├─ Fuse Bytes — Extended, High, Low config.
-│   │       ├─ Lock Bits — Prevention and bit calculation.
-│   │       └─ Tools — Online calculator + sync troubleshooting.
+├── Fundamental
+│   ├── [aKaReZa 6 - AVR, Introduction]
+│   │   ├─ MCU Families — Overview and ATMEGA328 specs.
+│   │   ├─ Clocking — Choosing clock sources.
+│   │   └─ Power Up — Minimum hardware requirements.
 │   │
-│   ├── GPIO (General Purpose Input Output)
-│   │   ├── [aKaReZa 20 - AVR, GPIO - Part A]
-│   │   │   ├─ Output — Register config + LED control.
-│   │   │   ├─ Simulation — Proteus + VsCode + PlatformIO.
-│   │   │   └─ Optimization — Macros and timing sync.
-│   │   │
-│   │   ├── [aKaReZa 23 - AVR, GPIO - Part B]
-│   │   │   ├─ Input — Pin setup + internal Pull-Up.
-│   │   │   ├─ Simulation — Input handling code.
-│   │   │   └─ Logic — `if` statements and decision-making.
-│   │   │
-│   │   └── External Interrupts
-│   │       └── [aKaReZa 55 - AVR, External Interrupts]
-│   │           ├─ INT0/INT1 — Setup and configuration.
-│   │           ├─ Pin Change — Monitoring and control.
-│   │           ├─ Flags — Manual clearing and management.
-│   │           └─ Code — Using `eInterrupt.h` + performance tips.
-│   │ 
+│   ├── [aKaReZa 22 - AVR, Programming]
+│   │   ├─ Tools — TNM2000+, USBasp, MKII, VsCode Upload.
+│   │   └─ Methods — ZIF socket and onboard programming.
+│   │
+│   └── [aKaReZa 12 - AVR, fuseBits]
+│       ├─ Fuse Bytes — Extended, High, Low config.
+│       ├─ Lock Bits — Prevention and bit calculation.
+│       └─ Tools — Online calculator + sync troubleshooting.
+│
+├── GPIO (General Purpose Input Output)
+│   ├── [aKaReZa 20 - AVR, GPIO - Part A]
+│   │   ├─ Output — Register config + LED control.
+│   │   ├─ Simulation — Proteus + VsCode + PlatformIO.
+│   │   └─ Optimization — Macros and timing sync.
+│   │
+│   ├── [aKaReZa 23 - AVR, GPIO - Part B]
+│   │   ├─ Input — Pin setup + internal Pull-Up.
+│   │   ├─ Simulation — Input handling code.
+│   │   └─ Logic — `if` statements and decision-making.
+│   │
+│   └── External Interrupts
+│       └── [aKaReZa 55 - AVR, External Interrupts]
+│           ├─ INT0/INT1 — Setup and configuration.
+│           ├─ Pin Change — Monitoring and control.
+│           ├─ Flags — Manual clearing and management.
+│           └─ Code — Using `eInterrupt.h` + performance tips.
+│ 
 ├── Display Interfaces
 │   ├── 7-Segment Displays
 │   │   ├── [aKaReZa 44 - AVR, 7Segment - Part A]
