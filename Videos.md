@@ -27,41 +27,104 @@ In this section, only **AVR**-related videos are available. These videos are gen
 
 ```plaintext
 📁 AVR Microcontrollers
-│
-├── Fundamental
-│   ├── [aKaReZa 6 - AVR, Introduction]
-│   ├── [aKaReZa 22 - AVR, Programming]
-│   └── [aKaReZa 12 - AVR, fuseBits]
-│
-├── GPIO (General Purpose Input Output)
-│   ├── [aKaReZa 20 - AVR, GPIO - Part A]
-│   ├── [aKaReZa 23 - AVR, GPIO - Part B]
-│   └── External Interrupts
-│       └──[aKaReZa 55 - AVR, External Interrupts]
-│
+│   ├── Fundamental
+│   │   ├── [aKaReZa 6 - AVR, Introduction]
+│   │   │   ├─ MCU Families — Overview and ATMEGA328 specs.
+│   │   │   ├─ Clocking — Choosing clock sources.
+│   │   │   └─ Power Up — Minimum hardware requirements.
+│   │   │
+│   │   ├── [aKaReZa 22 - AVR, Programming]
+│   │   │   ├─ Tools — TNM2000+, USBasp, MKII, VsCode Upload.
+│   │   │   └─ Methods — ZIF socket and onboard programming.
+│   │   │
+│   │   └── [aKaReZa 12 - AVR, fuseBits]
+│   │       ├─ Fuse Bytes — Extended, High, Low config.
+│   │       ├─ Lock Bits — Prevention and bit calculation.
+│   │       └─ Tools — Online calculator + sync troubleshooting.
+│   │
+│   ├── GPIO (General Purpose Input Output)
+│   │   ├── [aKaReZa 20 - AVR, GPIO - Part A]
+│   │   │   ├─ Output — Register config + LED control.
+│   │   │   ├─ Simulation — Proteus + VsCode + PlatformIO.
+│   │   │   └─ Optimization — Macros and timing sync.
+│   │   │
+│   │   ├── [aKaReZa 23 - AVR, GPIO - Part B]
+│   │   │   ├─ Input — Pin setup + internal Pull-Up.
+│   │   │   ├─ Simulation — Input handling code.
+│   │   │   └─ Logic — `if` statements and decision-making.
+│   │   │
+│   │   └── External Interrupts
+│   │       └── [aKaReZa 55 - AVR, External Interrupts]
+│   │           ├─ INT0/INT1 — Setup and configuration.
+│   │           ├─ Pin Change — Monitoring and control.
+│   │           ├─ Flags — Manual clearing and management.
+│   │           └─ Code — Using `eInterrupt.h` + performance tips.
+│   │ 
 ├── Display Interfaces
 │   ├── 7-Segment Displays
 │   │   ├── [aKaReZa 44 - AVR, 7Segment - Part A]
+│   │   │   ├─ Basics — Driving common anode + 4-digit multiplexing.
+│   │   │   └─ Optimization — Readability and maintainability.
+│   │   │
 │   │   ├── [aKaReZa 47 - AVR, 7Segment - Part B]
+│   │   │   ├─ Control — Button interaction and counter logic.
+│   │   │   └─ Efficiency — Digit splitting + macro usage.
+│   │   │
 │   │   └── [aKaReZa 53 - AVR, 7Segment - Part C]
+│   │       ├─ Modularity — Functions, headers, code structure.
+│   │       ├─ Refresh — Button-hold bug fix via software.
+│   │       └─ Timing — 1-second counter implementation.
+│   │
 │   └── Alphanumeric LCD
 │       └── [aKaReZa 57 - AVR, Alphanumeric LCD]
-|
+│           ├─ Setup — LCD connection and configuration.
+│           ├─ Library — alcd usage for text, decimals, Farsi.
+│           ├─ Custom — Character design and display.
+│           └─ Tuning — Contrast adjustment tips.
+│ 
 ├── Timers and Counters
 │   └── Timer0
-│       ├── [aKaReZa 59 - AVR, Timer, Accurate Time - Mode 1]
-│       └── [aKaReZa 105 - AVR, Timer, PWM - Mode 2]
-│
+│       ├── [aKaReZa 59 - Accurate Time - Mode 1]
+│       │   ├─ Modes — Normal vs CTC explained.
+│       │   ├─ Interrupts — Overflow vs Compare Match usage.
+│       │   ├─ Timing — Execution time, intervals, exact delays.
+│       │   └─ Display — 7-segment output + digit splitting.
+│       │
+│       └── [aKaReZa 105 - PWM - Mode 2]
+│           ├─ Modes — Fast PWM vs Phase Correct + TOP options.
+│           ├─ Signals — OCR update, waveform control.
+│           ├─ Techniques — Dual Slope PWM + Dead Time logic.
+│           └─ Applications — Motor control, power conversion, LEDs.
+│ 
 ├── Analog Peripherals
 │   └── ADC (Analog-to-Digital Converter)
-│       └── [aKaReZa 77 - AVR, Analog - ADC]
+│       └── [aKaReZa 77 - Analog - ADC]
+│           ├─ Structure — Block diagram + registers.
+│           ├─ Functions — Configuration + raw value reading.
+│           ├─ Measurement — Voltage, multi-channel, temperature sensors.
+│           ├─ Internals — MCU’s temp sensor + noise canceller feature.
+│           └─ Accuracy — Clean signal acquisition strategies.
 │
-├──  Communication Protocols
-│    └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
-│        ├── [aKaReZa 66 - AVR, Communication, USART - Part A]
-│        └── [aKaReZa 67 - AVR, Communication, USART - Part B]
-└──  Motors
-     └── [aKaReZa 108 - AVR, Servo Motor]
+├── Communication Protocols
+│   └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
+│       ├── [aKaReZa 66 - Part A]
+│       │   ├─ Intro — Features, block diagram, BaudRate calc.
+│       │   ├─ Registers — Access and control setup.
+│       │   ├─ Data Tx — Characters, strings, escape sequences.
+│       │   └─ Testing — Simulation vs real-world comparison.
+│       │
+│       └── [aKaReZa 67 - Part B]
+│           ├─ Data Rx — Receiving, interrupts, buffering.
+│           ├─ Reliability — Baud errors, flags, circular buffer.
+│           ├─ Debug — Plotting and signal validation.
+│           └─ Logic — Frame structure + escape sequence control.
+│
+└── Motors
+   └── [aKaReZa 108 - AVR, Servo Motor]
+        ├─ Timer0 — 50Hz PWM base signal generation.
+        ├─ Timer1 — Mode 14 (Fast PWM), Mode 10 (Phase Correct).
+        ├─ Precision — Servo angle control and fine-tuning.
+        └─ Comparison — Output signals and mode differences.
 ```
 
 <table style="border-collapse: collapse;">
