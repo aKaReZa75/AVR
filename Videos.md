@@ -113,11 +113,18 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │       │   ├─ Data Tx — Characters, strings, escape sequences.
 │       │   └─ Testing — Simulation vs real-world comparison.
 │       │
-│       └── [aKaReZa 67 - Part B]
-│           ├─ Data Rx — Receiving, interrupts, buffering.
-│           ├─ Reliability — Baud errors, flags, circular buffer.
-│           ├─ Debug — Plotting and signal validation.
-│           └─ Logic — Frame structure + escape sequence control.
+│       ├── [aKaReZa 67 - Part B]
+│       │    ├─ Data Rx — Receiving, interrupts, buffering.
+│       │    ├─ Reliability — Baud errors, flags, circular buffer.
+│       │    ├─ Debug — Plotting and signal validation.
+│       │    └─ Logic — Frame structure + escape sequence control.
+│       │
+│       └── [aKaReZa 112 - Part C]
+│           ├─ Challenge — Frame termination issues with CR/LF.
+│           ├─ Solution — Idle Detection strategy.
+│           ├─ Timer2 — Structure, registers, configuration.
+│           ├─ Implementation — Detecting end of transmission.
+│           └─ Testing — Timing analysis and validation.
 │
 └── Motors
    └── [aKaReZa 108 - AVR, Servo Motor]
@@ -415,6 +422,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/4s5p9rwfgto">aKaReZa 112 – AVR, Communication, USART - Part C</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Master USART frame detection in AVR microcontrollers using Idle Detection instead of CR/LF terminators. This video introduces Timer 2 configuration, timing analysis, and real-world testing—essential for reliable serial communication.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/4s5p9rwfgto">
+        <img src="https://img.youtube.com/vi/4s5p9rwfgto/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 112 – AVR, Communication, USART - Part C Thumbnail"/>
+      </a>
+    </td>
+  
   
 </table>
 
