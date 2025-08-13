@@ -106,6 +106,11 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository contains pre-tested and ready-to-use files for starting AVR projects in PlatformIO and VSCode. With these files, you can quickly set up a new AVR project by simply copying and pasting them into your workspace, saving time and effort for efficient development.
 
+- [eBoard ATMEGA328](https://github.com/aKaReZa75/eBoard_ATMEGA328)  
+  ---  
+  A complete design, assembly, and testing project for an educational header board based on the ATMEGA328 AVR microcontroller, fully compatible with the Arduino UNO form factor. Suitable for learning, prototyping, and experimenting with AVR peripherals.
+
+
 - [Fuse Bits Configuration Guide](./fuseBits.md)  
   ---  
   In this document, you'll learn how to properly configure the fuse bits for the **ATmega328** microcontroller. It covers the necessary settings for clock sources, startup times, bootloader configurations, and more, ensuring that your microcontroller is set up optimally for your project needs.
