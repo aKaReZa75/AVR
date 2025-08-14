@@ -126,12 +126,21 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │           ├─ Implementation — Detecting end of transmission.
 │           └─ Testing — Timing analysis and validation.
 │
-└── Motors
-   └── [aKaReZa 108 - AVR, Servo Motor]
-        ├─ Timer0 — 50Hz PWM base signal generation.
-        ├─ Timer1 — Mode 14 (Fast PWM), Mode 10 (Phase Correct).
-        ├─ Precision — Servo angle control and fine-tuning.
-        └─ Comparison — Output signals and mode differences.
+├── Motors
+│   └── [aKaReZa 108 - Servo Motor]
+│       ├─ Timer0 — 50Hz PWM base signal generation.
+│       ├─ Timer1 — Mode 14 (Fast PWM), Mode 10 (Phase Correct).
+│       ├─ Precision — Servo angle control and fine-tuning.
+│       └─ Comparison — Output signals and mode differences.
+│
+└── Modules
+    └── GSM
+        └── [aKaReZa 113 - Quectel M66 - PART A]
+            ├─ Setup — New GSM project and module configuration.
+            ├─ AT Commands — Review and usage.
+            ├─ Functions — `M66_Init()`, `M66_SendSMS()`, `M66_SendAtCmd()`.
+            ├─ SMS — Sending messages to specified numbers.
+            └─ Debugging — Common issues and fixes.
 ```
 
 <table style="border-collapse: collapse;">
@@ -439,7 +448,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
              alt="aKaReZa 112 – AVR, Communication, USART - Part C Thumbnail"/>
       </a>
     </td>
-  
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/1ndIc5NdtNg">aKaReZa 113 – AVR, Quectel M66 - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to program the Quectel M66 GSM module using AVR microcontrollers. This video walks through project setup, AT command handling, and writing practical functions like <code>M66_Init()</code> and <code>M66_SendSMS()</code> for real-world GSM communication.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/1ndIc5NdtNg">
+        <img src="https://img.youtube.com/vi/1ndIc5NdtNg/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 113 – AVR, Quectel M66 - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>  
   
 </table>
 
