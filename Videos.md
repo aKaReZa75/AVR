@@ -106,25 +106,32 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │           └─ Accuracy — Clean signal acquisition strategies.
 │
 ├── Communication Protocols
-│   └── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
-│       ├── [aKaReZa 66 - Part A]
-│       │   ├─ Intro — Features, block diagram, BaudRate calc.
-│       │   ├─ Registers — Access and control setup.
-│       │   ├─ Data Tx — Characters, strings, escape sequences.
-│       │   └─ Testing — Simulation vs real-world comparison.
-│       │
-│       ├── [aKaReZa 67 - Part B]
-│       │    ├─ Data Rx — Receiving, interrupts, buffering.
-│       │    ├─ Reliability — Baud errors, flags, circular buffer.
-│       │    ├─ Debug — Plotting and signal validation.
-│       │    └─ Logic — Frame structure + escape sequence control.
-│       │
-│       └── [aKaReZa 112 - Part C]
-│           ├─ Challenge — Frame termination issues with CR/LF.
-│           ├─ Solution — Idle Detection strategy.
-│           ├─ Timer2 — Structure, registers, configuration.
-│           ├─ Implementation — Detecting end of transmission.
-│           └─ Testing — Timing analysis and validation.
+│   ├── USART (Universal Synchronous/Asynchronous Receiver/Transmitter)
+│   │   ├── [aKaReZa 66 - Part A]
+│   │   │   ├─ Intro — Features, block diagram, BaudRate calc.
+│   │   │   ├─ Registers — Access and control setup.
+│   │   │   ├─ Data Tx — Characters, strings, escape sequences.
+│   │   │   └─ Testing — Simulation vs real-world comparison.
+│   │   │
+│   │   ├── [aKaReZa 67 - Part B]
+│   │   │   ├─ Data Rx — Receiving, interrupts, buffering.
+│   │   │   ├─ Reliability — Baud errors, flags, circular buffer.
+│   │   │   ├─ Debug — Plotting and signal validation.
+│   │   │   └─ Logic — Frame structure + escape sequence control.
+│   │   │
+│   │   └── [aKaReZa 112 - Part C]
+│   │       ├─ Challenge — Frame termination issues with CR/LF.
+│   │       ├─ Solution — Idle Detection strategy.
+│   │       ├─ Timer2 — Structure, registers, configuration.
+│   │       ├─ Implementation — Detecting end of transmission.
+│   │       └─ Testing — Timing analysis and validation.
+│   |
+│   └── I2C (Inter-Integrated Circuit)
+│       └── [aKaReZa 114 - PART A]
+│           ├─ Intro — Protocol overview and use cases.
+│           ├─ Registers — Block diagram and bit-level control.
+│           ├─ Safety — Atomic operations for reliable comms.
+│           └─ Functions — Init, Start, Write, Read, Sequential ops.
 │
 ├── Motors
 │   └── [aKaReZa 108 - Servo Motor]
@@ -466,6 +473,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
       </a>
     </td>
   </tr>  
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/KScXumQBRfo">aKaReZa 114 – AVR, I2C - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn I2C communication in AVR microcontrollers from the ground up. This video covers protocol fundamentals, register-level analysis, atomic operations, and implementation of key functions like <code>i2c_Init()</code>, <code>i2c_Start()</code>, <code>i2c_Write()</code>, and more—perfect for building reliable sensor and module interfaces.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/KScXumQBRfo">
+        <img src="https://img.youtube.com/vi/KScXumQBRfo/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 114 – AVR, I2C - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
   
 </table>
 
