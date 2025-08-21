@@ -147,6 +147,22 @@ It is one of the most popular microcontrollers in the AVR family, widely used in
   ---  
   This repository contains a comprehensive guide for using Timer0 in AVR microcontrollers. It includes code examples and explanations of how to set up and use Timer0 for various time-based tasks, including generating delays and creating precise timing events.
 
+- [AVR Timer1](https://github.com/aKaReZa75/AVR_Timer1)  
+  ---  
+  Timer1 is a powerful 16-bit timer/counter peripheral in the ATmega328P microcontroller, offering advanced timing capabilities for embedded applications. It supports input capture, output compare, and PWM generation with high resolution. This repository guides users through configuring Timer1 using PlatformIO and VSCode, including setting prescalers, enabling interrupts, and generating precise timing events. Ideal for developers and learners working on time-critical embedded systems.
+
+- [AVR Timer2](https://github.com/aKaReZa75/AVR_Timer2)  
+  ---  
+  Timer2 is an 8-bit timer/counter peripheral in the ATmega328P microcontroller, commonly used for generating precise time delays, PWM signals, and event scheduling in embedded applications. This repository demonstrates how to configure and utilize Timer2 using PlatformIO and VSCode, covering topics such as prescaler settings, interrupt handling, and waveform generation. It serves as a practical resource for learning timer-based programming in AVR systems.
+
+- [AVR M66 GSM Module](https://github.com/aKaReZa75/AVR_M66)  
+  ---  
+  The M66 GSM module enables cellular communication capabilities such as SMS, voice, and GPRS data transfer. This repository focuses on integrating the M66 module with the ATmega328P microcontroller using USART for serial communication. It includes initialization routines, AT command handling, and practical examples for sending messages and establishing network connections. Developed using PlatformIO and VSCode, this project is ideal for embedded developers exploring GSM-based IoT solutions.
+
+- [AVR I2C Communication](https://github.com/aKaReZa75/AVR_I2C)  
+  ---  
+  The I2C (Inter-Integrated Circuit) protocol is a widely used communication interface in the ATmega328 microcontroller, enabling multiple devices to communicate using just two wires: SDA (data) and SCL (clock). It supports master and slave modes, allowing the microcontroller to connect with various peripherals such as sensors, EEPROMs, and other microcontrollers. This repository covers the register-level configuration, practical usage examples, and important considerations for implementing I2C in embedded systems.
+
 # 💻 How to Use Git and GitHub
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
