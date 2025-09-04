@@ -142,12 +142,19 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │
 └── Modules
     └── GSM
-        └── [aKaReZa 113 - Quectel M66 - PART A]
-            ├─ Setup — New GSM project and module configuration.
-            ├─ AT Commands — Review and usage.
-            ├─ Functions — `M66_Init()`, `M66_SendSMS()`, `M66_SendAtCmd()`.
-            ├─ SMS — Sending messages to specified numbers.
-            └─ Debugging — Common issues and fixes.
+        ├── [aKaReZa 113 - Quectel M66 - PART A]
+        │   ├─ Setup — New GSM project and module configuration.
+        │   ├─ AT Commands — Review and usage.
+        │   ├─ Functions — `M66_Init()`, `M66_SendSMS()`, `M66_SendAtCmd()`.
+        │   ├─ SMS — Sending messages to specified numbers.
+        │   └─ Debugging — Common issues and fixes.
+        │
+        └── [aKaReZa 116 - Quectel M66 - PART B]
+            ├─ Response — Parsing AT command replies.
+            ├─ Startup — `M66_startUp()` function design.
+            ├─ Timeout — Managing delays and avoiding lockups.
+            ├─ Errors — GSM-specific issues and fixes.
+            └─ Reliability — Clean code for stable communication.
 ```
 
 <table style="border-collapse: collapse;">
@@ -491,6 +498,25 @@ In this section, only **AVR**-related videos are available. These videos are gen
       </a>
     </td>
   </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Sg0c39_p_TM">aKaReZa 116 – AVR, Quectel M66 - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Strengthen GSM communication with AVR by handling AT command responses, building a reliable startup routine, and implementing timeout management. This video ensures stable interaction with the Quectel M66 module—ideal for debugging and professionalizing real-world GSM projects.</a>.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/Sg0c39_p_TM">
+        <img src="https://img.youtube.com/vi/Sg0c39_p_TM/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 116 – AVR, Quectel M66 - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+ 
   
 </table>
 
