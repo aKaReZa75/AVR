@@ -143,18 +143,18 @@ In this section, only **AVR**-related videos are available. These videos are gen
 └── Modules
     └── GSM
         ├── [aKaReZa 113 - Quectel M66 - PART A]
-        │   ├─ Setup — New GSM project and module configuration.
-        │   ├─ AT Commands — Review and usage.
-        │   ├─ Functions — `M66_Init()`, `M66_SendSMS()`, `M66_SendAtCmd()`.
-        │   ├─ SMS — Sending messages to specified numbers.
-        │   └─ Debugging — Common issues and fixes.
+        │     ├─ Setup — New GSM project and module configuration.
+        │     ├─ AT Commands — Review and usage.
+        │     ├─ Functions — `M66_Init()`, `M66_SendSMS()`, `M66_SendAtCmd()`.
+        │     ├─ SMS — Sending messages to specified numbers.
+        │     └─ Debugging — Common issues and fixes.
         │
         └── [aKaReZa 116 - Quectel M66 - PART B]
-            ├─ Response — Parsing AT command replies.
-            ├─ Startup — `M66_startUp()` function design.
-            ├─ Timeout — Managing delays and avoiding lockups.
-            ├─ Errors — GSM-specific issues and fixes.
-            └─ Reliability — Clean code for stable communication.
+              ├─ Response — Parsing AT command replies.
+              ├─ Startup — `M66_startUp()` function design.
+              ├─ Timeout — Managing delays and avoiding lockups.
+              ├─ Errors — GSM-specific issues and fixes.
+              └─ Reliability — Clean code for stable communication.
 ```
 
 <table style="border-collapse: collapse;">
