@@ -1,0 +1,10 @@
+char usart_RxBuffer[] = "\r\n+CMTI: \"SM\",1\r\n";
+
+uint8_t _SMSnum = 0; 
+char _CMD[25];
+M66_Res_T _Res = M66_Res_ERR;
+
+sscanf(usart_RxBuffer, "\r\n+CMTI: \"SM\",%hhd\r\n", &_SMSnum);	
+sprintf(_CMD, "AT+CMGR=%d\r\n", _SMSnum);
+_Res = M66_SendAtCmd(_CMD, __M66_Okey, __M66_Default_TimeOut); 
+   
