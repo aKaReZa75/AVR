@@ -149,12 +149,19 @@ In this section, only **AVR**-related videos are available. These videos are gen
         │     ├─ SMS — Sending messages to specified numbers.
         │     └─ Debugging — Common issues and fixes.
         │
-        └── [aKaReZa 116 - Quectel M66 - PART B]
-              ├─ Response — Parsing AT command replies.
-              ├─ Startup — `M66_startUp()` function design.
-              ├─ Timeout — Managing delays and avoiding lockups.
-              ├─ Errors — GSM-specific issues and fixes.
-              └─ Reliability — Clean code for stable communication.
+        ├── [aKaReZa 116 - Quectel M66 - PART B]
+        │     ├─ Response — Parsing AT command replies.
+        │     ├─ Startup — `M66_startUp()` function design.
+        │     ├─ Timeout — Managing delays and avoiding lockups.
+        │     ├─ Errors — GSM-specific issues and fixes.
+        │     └─ Reliability — Clean code for stable communication.
+        │
+        └── [aKaReZa 117 - Quectel M66 - PART C]
+              ├─ SMS Rx — Detecting incoming messages via +CMTI.
+              ├─ Parsing — Using `sscanf()` and scansets for data extraction.
+              ├─ Function — `M66_CheckSMS()` implementation.
+              ├─ Execution — Testing on RCS-AVR board.
+              └─ Control — Relay activation based on SMS content.
 ```
 
 <table style="border-collapse: collapse;">
@@ -517,6 +524,23 @@ In this section, only **AVR**-related videos are available. These videos are gen
     </td>
   </tr>
  
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/M1o16PILNKs">aKaReZa 117 – AVR, Quectel M66 - PART C</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Take your GSM integration to the next level by learning how to receive and parse SMS messages using AVR and the Quectel M66 module. This video walks through project setup, <code>+CMTI</code> message detection, <code>sscanf()</code> parsing, and relay control based on SMS content. It’s a practical blueprint for building SMS-driven control systems.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/M1o16PILNKs">
+        <img src="https://img.youtube.com/vi/M1o16PILNKs/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 117 – AVR, Quectel M66 - PART C Thumbnail"/>
+      </a>
+    </td>
+  </tr>
   
 </table>
 
