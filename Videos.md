@@ -90,12 +90,19 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │       │   ├─ Timing — Execution time, intervals, exact delays.
 │       │   └─ Display — 7-segment output + digit splitting.
 │       │
-│       └── [aKaReZa 105 - PWM - Mode 2]
-│           ├─ Modes — Fast PWM vs Phase Correct + TOP options.
-│           ├─ Signals — OCR update, waveform control.
-│           ├─ Techniques — Dual Slope PWM + Dead Time logic.
-│           └─ Applications — Motor control, power conversion, LEDs.
-│ 
+│       ├── [aKaReZa 105 - PWM - Mode 2]
+│       │   ├─ Modes — Fast PWM vs Phase Correct + TOP options.
+│       │   ├─ Signals — OCR update, waveform control.
+│       │   ├─ Techniques — Dual Slope PWM + Dead Time logic.
+│       │   └─ Applications — Motor control, power conversion, LEDs.
+│       │
+│       └── [aKaReZa 122 - Millis - Mode 7]
+│           ├─ Tasks — Defining multiple independent routines.
+│           ├─ Function — Building a `millis()` timer in AVR.
+│           ├─ Multitasking — Cooperative scheduling without RTOS.
+│           ├─ Tips — Effective use of non-blocking delays.
+│           └─ Structure — Internal logic and timing components.
+|
 ├── Analog Peripherals
 │   └── ADC (Analog-to-Digital Converter)
 │       └── [aKaReZa 77 - Analog - ADC]
@@ -538,6 +545,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
         <img src="https://img.youtube.com/vi/M1o16PILNKs/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 117 – AVR, Quectel M66 - PART C Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/Jw2_HUWW0NI">aKaReZa 122 – AVR, Timer, Millis - Mode 7</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to implement the <code>millis()</code> concept in AVR microcontrollers for non-blocking delays and multitasking without an RTOS. This video walks through project setup, task scheduling, timer configuration, and internal logic analysis—perfect for building responsive embedded systems with clean timing control.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/Jw2_HUWW0NI">
+        <img src="https://img.youtube.com/vi/Jw2_HUWW0NI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 122 – AVR, Timer, Millis - Mode 7 Thumbnail"/>
       </a>
     </td>
   </tr>
