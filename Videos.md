@@ -76,11 +76,21 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │   │       └─ Timing — 1-second counter implementation.
 │   │
 │   └── Alphanumeric LCD
-│       └── [aKaReZa 57 - AVR, Alphanumeric LCD]
-│           ├─ Setup — LCD connection and configuration.
-│           ├─ Library — alcd usage for text, decimals, Farsi.
-│           ├─ Custom — Character design and display.
-│           └─ Tuning — Contrast adjustment tips.
+│        ├── [aKaReZa 57 - AVR, Alphanumeric LCD]
+│        │     ├─ Setup — LCD connection using AVR microcontrollers.
+│        │     ├─ Library — alcd functions and text display.
+│        │     ├─ Custom Characters — Including Farsi text creation.
+│        │     └─ Display Tuning — Decimal display and contrast adjustment.
+│        │
+│        └── [aKaReZa 127 - AVR, Alphanumeric LCD - PART B]
+│              ├─ Overview — Structure and operation of character LCDs.
+│              ├─ Project — Creating a new project for LCD initialization.
+│              ├─ Init — Configuring the LCD using alcd_init().
+│              ├─ Write — Sending data and commands with alcd_write().
+│              ├─ Mode — Understanding and using the 8-bit mode.
+│              ├─ Putc — Displaying single characters with alcd_putc().
+│              ├─ Puts — Displaying strings with alcd_puts().
+│              └─ Positioning — Using alcd_gotoxy() to place characters.
 │ 
 ├── Timers and Counters
 │   └── Timer0
@@ -563,6 +573,25 @@ In this section, only **AVR**-related videos are available. These videos are gen
         <img src="https://img.youtube.com/vi/Jw2_HUWW0NI/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 122 – AVR, Timer, Millis - Mode 7 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/dNaj5lWs40A">aKaReZa 127 – AVR, Alphanumeric LCD - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continue mastering character LCDs with AVR in this second phase tutorial. You’ll learn the <strong>structure and operation of alphanumeric LCDs</strong>, set up a new project, and configure the display using <code>alcd_init()</code>. The episode also covers <strong>sending data and commands with alcd_write()</strong>, working in <strong>8-bit mode</strong>, and displaying output with <code>alcd_putc()</code> and <code>alcd_puts()</code>. Finally, you’ll practice <strong>positioning characters using alcd_gotoxy()</strong>—a complete hands-on guide for building reliable LCD interfaces in embedded projects.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/dNaj5lWs40A">
+        <img src="https://img.youtube.com/vi/dNaj5lWs40A/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 127 – AVR, Alphanumeric LCD - PART B Thumbnail"/>
       </a>
     </td>
   </tr>
