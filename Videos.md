@@ -77,21 +77,30 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │   │
 │   └── Alphanumeric LCD
 │        ├── [aKaReZa 57 - AVR, Alphanumeric LCD]
-│        │     ├─ Setup — LCD connection using AVR microcontrollers.
-│        │     ├─ Library — alcd functions and text display.
-│        │     ├─ Custom Characters — Including Farsi text creation.
-│        │     └─ Display Tuning — Decimal display and contrast adjustment.
+│        │   ├─ Setup — LCD connection using AVR microcontrollers.
+│        │   ├─ Library — alcd functions and text display.
+│        │   ├─ Custom Characters — Including Farsi text creation.
+│        │   └─ Display Tuning — Decimal display and contrast adjustment.
 │        │
-│        └── [aKaReZa 127 - AVR, Alphanumeric LCD - PART B]
-│              ├─ Overview — Structure and operation of character LCDs.
-│              ├─ Project — Creating a new project for LCD initialization.
-│              ├─ Init — Configuring the LCD using alcd_init().
-│              ├─ Write — Sending data and commands with alcd_write().
-│              ├─ Mode — Understanding and using the 8-bit mode.
-│              ├─ Putc — Displaying single characters with alcd_putc().
-│              ├─ Puts — Displaying strings with alcd_puts().
-│              └─ Positioning — Using alcd_gotoxy() to place characters.
-│ 
+│        ├── [aKaReZa 127 - AVR, Alphanumeric LCD - PART B]
+│        │   ├─ Overview — Structure and operation of character LCDs.
+│        │   ├─ Project — Creating a new project for LCD initialization.
+│        │   ├─ Init — Configuring the LCD using alcd_init().
+│        │   ├─ Write — Sending data and commands with alcd_write().
+│        │   ├─ Mode — Understanding and using the 8-bit mode.
+│        │   ├─ Putc — Displaying single characters with alcd_putc().
+│        │   ├─ Puts — Displaying strings with alcd_puts().
+│        │   └─ Positioning — Using alcd_gotoxy() to place characters.
+│        │
+│        └── [aKaReZa 129 - AVR, Alphanumeric LCD - PART C]
+│            ├─ Clear — Resetting the display with alcd_clear().
+│            ├─ Cursor — Managing cursor visibility via alcd_cursor().
+│            ├─ Display — Controlling screen visibility using alcd_display().
+│            ├─ Backlight — Enabling/disabling with alcd_backlight().
+│            ├─ Custom — Defining characters using alcd_customChar().
+│            ├─ Mode — Configuring LCD in 4-bit mode.
+│            └─ Optimization — Pin-saving and efficiency tips.
+|
 ├── Timers and Counters
 │   └── Timer0
 │       ├── [aKaReZa 59 - Accurate Time - Mode 1]
@@ -592,6 +601,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
         <img src="https://img.youtube.com/vi/dNaj5lWs40A/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 127 – AVR, Alphanumeric LCD - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/1IQTeyUsbYI">aKaReZa 129 – AVR, Alphanumeric LCD - PART C</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Unlock advanced features of AVR character LCDs in this third tutorial. You’ll learn how to <strong>clear the display with alcd_clear</strong>, manage the <strong>cursor using alcd_cursor</strong>, and control visibility with <strong>alcd_display</strong>. The episode also covers <strong>backlight management via alcd_backlight</strong>, creating <strong>custom characters with alcd_customChar</strong>, and configuring the LCD in <strong>4-bit mode</strong> to save pins and optimize resources. It wraps up with <strong>final optimization tips</strong> for efficient LCD usage—perfect for building polished and professional embedded interfaces.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/1IQTeyUsbYI">
+        <img src="https://img.youtube.com/vi/1IQTeyUsbYI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 129 – AVR, Alphanumeric LCD - PART C Thumbnail"/>
       </a>
     </td>
   </tr>
