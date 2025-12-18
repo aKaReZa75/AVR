@@ -166,6 +166,16 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │       ├─ Precision — Servo angle control and fine-tuning.
 │       └─ Comparison — Output signals and mode differences.
 │
+├── Memory
+│   └── EEPROM
+│       └── [aKaReZa 131 - AVR, EEPROM - PART A]
+│           ├─ Concept — AVR internal EEPROM structure and use cases.
+│           ├─ Registers — EEAR, EEDR, EECR bit-by-bit review.
+│           ├─ Functions — uint8_write(), uint16_write(), uint32_write().
+│           ├─ Endianness — Storage order considerations.
+│           ├─ Type Punning — Advantages and safe usage.
+│           └─ Project — Building and testing EEPROM write routines.
+│
 └── Modules
     └── GSM
         ├── [aKaReZa 113 - Quectel M66 - PART A]
@@ -619,6 +629,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
         <img src="https://img.youtube.com/vi/1IQTeyUsbYI/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 129 – AVR, Alphanumeric LCD - PART C Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr style="background-color: #f9f9f9;">
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/62rkm0YjG4s">aKaReZa 131 – AVR, EEPROM - PART A</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Explore the <strong>internal EEPROM of AVR microcontrollers</strong>—a powerful feature for permanent data storage across resets and power cycles. This tutorial provides a <strong>bit-by-bit review of EEAR, EEDR, and EECR registers</strong>, and guides you through writing functions like <code>uint8_write()</code>, <code>uint16_write()</code>, and <code>uint32_write()</code>. Along the way, you’ll learn about <strong>Endianness in data storage</strong> and the advantages of <strong>Type Punning</strong>, making this episode essential for building projects with user settings, calibration data, counters, or simple data loggers.
+      </p>
+    </td>
+    <td width="360" valign="center">
+      <a href="https://youtu.be/62rkm0YjG4s">
+        <img src="https://img.youtube.com/vi/62rkm0YjG4s/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 131 – AVR, EEPROM - PART A Thumbnail"/>
       </a>
     </td>
   </tr>
