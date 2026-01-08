@@ -168,14 +168,22 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │
 ├── Memory
 │   └── EEPROM
-│       └── [aKaReZa 131 - AVR, EEPROM - PART A]
-│           ├─ Concept — AVR internal EEPROM structure and use cases.
-│           ├─ Registers — EEAR, EEDR, EECR bit-by-bit review.
-│           ├─ Functions — uint8_write(), uint16_write(), uint32_write().
-│           ├─ Endianness — Storage order considerations.
-│           ├─ Type Punning — Advantages and safe usage.
-│           └─ Project — Building and testing EEPROM write routines.
-│
+│       ├── [aKaReZa 131 - AVR, EEPROM - PART A]
+│       │   ├─ Concept — AVR internal EEPROM structure and use cases.
+│       │   ├─ Registers — EEAR, EEDR, EECR bit-by-bit review.
+│       │   ├─ Functions — uint8_write(), uint16_write(), uint32_write().
+│       │   ├─ Endianness — Storage order considerations.
+│       │   ├─ Type Punning — Advantages and safe usage.
+│       │   └─ Project — Building and testing EEPROM write routines.
+│       │
+│       └── [aKaReZa 134 - AVR, EEPROM - PART B]
+│           ├─ Float — Implementing float_Write() for floating‑point storage.
+│           ├─ Block — Writing arrays and strings with block_Write().
+│           ├─ Read — Functions for reading multiple data types.
+│           ├─ Update — Smart update functions to reduce wear and speed up execution.
+│           ├─ Timing — Execution‑time analysis and Update vs Write comparison.
+│           ├─ Signed — Write/Read/Update for signed data types.
+│           └─ Format — Erasing the entire EEPROM memory.
 └── Modules
     └── GSM
         ├── [aKaReZa 113 - Quectel M66 - PART A]
@@ -647,6 +655,25 @@ In this section, only **AVR**-related videos are available. These videos are gen
         <img src="https://img.youtube.com/vi/62rkm0YjG4s/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 131 – AVR, EEPROM - PART A Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/d8H9xRyfYPI">aKaReZa 134 – AVR, EEPROM – PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continue exploring advanced <strong>EEPROM data storage</strong> on AVR. This episode covers writing floats and arrays, reading multiple data types, implementing smart <strong>Update</strong> functions to reduce wear, analyzing execution time, and adding full‑memory formatting. A solid foundation for building efficient and reliable data‑persistence systems in embedded projects.
+      </p>
+    </td>
+    <td width="360" valign="center">
+      <a href="https://youtu.be/d8H9xRyfYPI">
+        <img src="https://img.youtube.com/vi/d8H9xRyfYPI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 134 – AVR, EEPROM – PART B Thumbnail"/>
       </a>
     </td>
   </tr>
