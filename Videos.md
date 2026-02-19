@@ -101,26 +101,34 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │            ├─ Mode — Configuring LCD in 4-bit mode.
 │            └─ Optimization — Pin-saving and efficiency tips.
 |
-├── Timers and Counters
-│   └── Timer0
-│       ├── [aKaReZa 59 - Accurate Time - Mode 1]
-│       │   ├─ Modes — Normal vs CTC explained.
-│       │   ├─ Interrupts — Overflow vs Compare Match usage.
-│       │   ├─ Timing — Execution time, intervals, exact delays.
-│       │   └─ Display — 7-segment output + digit splitting.
-│       │
-│       ├── [aKaReZa 105 - PWM - Mode 2]
-│       │   ├─ Modes — Fast PWM vs Phase Correct + TOP options.
-│       │   ├─ Signals — OCR update, waveform control.
-│       │   ├─ Techniques — Dual Slope PWM + Dead Time logic.
-│       │   └─ Applications — Motor control, power conversion, LEDs.
-│       │
-│       └── [aKaReZa 122 - Millis - Mode 7]
-│           ├─ Tasks — Defining multiple independent routines.
-│           ├─ Function — Building a `millis()` timer in AVR.
-│           ├─ Multitasking — Cooperative scheduling without RTOS.
-│           ├─ Tips — Effective use of non-blocking delays.
-│           └─ Structure — Internal logic and timing components.
+├── Timers
+│   ├── [aKaReZa 59 - Accurate Time - Mode 1]
+│   │   ├─ Modes — Normal vs CTC explained.
+│   │   ├─ Interrupts — Overflow vs Compare Match usage.
+│   │   ├─ Timing — Execution time, intervals, exact delays.
+│   │   └─ Display — 7-segment output + digit splitting.
+│   │
+│   ├── [aKaReZa 105 - PWM - Mode 2]
+│   │   ├─ Modes — Fast PWM vs Phase Correct + TOP options.
+│   │   ├─ Signals — OCR update, waveform control.
+│   │   ├─ Techniques — Dual Slope PWM + Dead Time logic.
+│   │   └─ Applications — Motor control, power conversion, LEDs.
+│   │
+│   ├── [aKaReZa 122 - Millis - Mode 7]
+│   │   ├─ Tasks — Defining multiple independent routines.
+│   │   ├─ Function — Building a `millis()` timer in AVR.
+│   │   ├─ Multitasking — Cooperative scheduling without RTOS.
+│   │   ├─ Tips — Effective use of non-blocking delays.
+│   │   └─ Structure — Internal logic and timing components.
+│   │
+│   └── [aKaReZa 136 - AVR, Timer, Counter - Mode 3]
+│       ├─ Concept — Frequency measurement principles.
+│       ├─ Timer1 — Full review and counter‑mode config.
+│       ├─ Project — Frequency measurement project setup.
+│       ├─ Timer2 — Review and timer‑mode with external clock.
+│       ├─ High Freq — Methods for measuring high frequencies.
+│       ├─ Accuracy — Error calculation and hardware limits.
+│       └─ Range — Maximum measurable frequency analysis.
 |
 ├── Analog Peripherals
 │   └── ADC (Analog-to-Digital Converter)
@@ -677,7 +685,25 @@ In this section, only **AVR**-related videos are available. These videos are gen
       </a>
     </td>
   </tr>
-  
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/RCxOpa2WsnI">aKaReZa 136 – AVR, Timer, Counter – Mode 3</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Learn how to measure <strong>frequency</strong> using AVR timers in <strong>Counter Mode (Mode 3)</strong>. This episode explains the fundamentals of frequency measurement, full configuration of <strong>Timer1</strong> and <strong>Timer2</strong>, creating a practical measurement project, analyzing accuracy and limitations, and exploring techniques to reach the maximum measurable frequency range. A key lesson for mastering signal measurement in embedded systems.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/RCxOpa2WsnI">
+        <img src="https://img.youtube.com/vi/RCxOpa2WsnI/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 136 – AVR, Timer, Counter – Mode 3 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
 </table>
 
 # 🌟 Support Me
