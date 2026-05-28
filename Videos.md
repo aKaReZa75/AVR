@@ -121,14 +121,25 @@ In this section, only **AVR**-related videos are available. These videos are gen
 │   │   ├─ Tips — Effective use of non-blocking delays.
 │   │   └─ Structure — Internal logic and timing components.
 │   │
-│   └── [aKaReZa 136 - AVR, Timer, Counter - Mode 3]
-│       ├─ Concept — Frequency measurement principles.
-│       ├─ Timer1 — Full review and counter‑mode config.
-│       ├─ Project — Frequency measurement project setup.
-│       ├─ Timer2 — Review and timer‑mode with external clock.
-│       ├─ High Freq — Methods for measuring high frequencies.
-│       ├─ Accuracy — Error calculation and hardware limits.
-│       └─ Range — Maximum measurable frequency analysis.
+│   ├── [aKaReZa 136 - AVR, Timer, Counter - Mode 3]
+│   │   ├─ Concept — Frequency measurement principles.
+│   │   ├─ Timer1 — Full review and counter‑mode config.
+│   │   ├─ Project — Frequency measurement project setup.
+│   │   ├─ Timer2 — Review and timer‑mode with external clock.
+│   │   ├─ High Freq — Methods for measuring high frequencies.
+│   │   ├─ Accuracy — Error calculation and hardware limits.
+│   │   └─ Range — Maximum measurable frequency analysis.
+│   │
+│   └── [aKaReZa 138 - AVR, Timer, Capture - Mode 4]
+│       ├─ Techniques — Measuring signal period with timers + EXTI.
+│       ├─ Project — Creating a Capture‑mode measurement project.
+│       ├─ Prescaler — Choosing the right prescaler for accuracy.
+│       ├─ Calculations — Period, frequency, duty cycle formulas.
+│       ├─ Capture Unit — Full review and advantages.
+│       ├─ Events — Computing parameters from Capture events.
+│       ├─ Error Case — Identifying and analyzing measurement errors.
+│       ├─ Noise Canceller — Introduction and practical usage.
+│       └─ Long Intervals — Techniques for measuring long periods.
 |
 ├── Analog Peripherals
 │   └── ADC (Analog-to-Digital Converter)
@@ -700,6 +711,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
         <img src="https://img.youtube.com/vi/RCxOpa2WsnI/maxresdefault.jpg"
              width="360"
              alt="aKaReZa 136 – AVR, Timer, Counter – Mode 3 Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/gUYuW_KnFkM">aKaReZa 138 – AVR, Timer, Capture – Mode 4</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        A deep, practical introduction to <strong>Capture mode</strong> in AVR timers — the most accurate method for measuring period, frequency, and duty cycle. This episode covers prescaler selection, Capture unit behavior, interrupt handling, error analysis, long‑interval measurement techniques, and the use of the <strong>Input Noise Canceller</strong> for clean, reliable signal processing in high‑speed or noisy environments.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/gUYuW_KnFkM">
+        <img src="https://img.youtube.com/vi/gUYuW_KnFkM/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 138 – AVR, Timer, Capture – Mode 4 Thumbnail"/>
       </a>
     </td>
   </tr>
