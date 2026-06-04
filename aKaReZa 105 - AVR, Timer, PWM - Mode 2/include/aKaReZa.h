@@ -1,11 +1,15 @@
-/* @file     aKaReZa.h                                */                      
-/* @brief    AVR microcontollers headfile             */
-/* @note     This file is for _AVR_ microcontrollers  */   
-/* @author   Hossein Bagheri                          */
-/* @github   aKaReZa75                                */
-/* @youtube  aKaReZa75                                */
-/* @linkedin aKaReZa75                                */
-/* @email    aKaReZa75@gmail.com                      */
+/**
+ * @file     aKaReZa.h
+ * @brief    Header file for AVR microcontrollers.
+ * @note     This file is designed for use with AVR microcontrollers.
+ * 
+ * @author   Hossein Bagheri
+ * @github   https://github.com/aKaReZa75
+ * 
+ * @note     For a complete list of all macros in this header file, 
+ *  		 along with detailed explanations and examples of usage, visit: 
+ *           https://github.com/aKaReZa75/AVR/blob/main/Macros.md 
+ */
 
 #ifndef _aKaReZa_H_
 #define _aKaReZa_H_
@@ -16,16 +20,16 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <avr/interrupt.h>
-#include "usart.h"
-#include "adc.h"
 
 #define bitSet(_Reg, _Bit)    (_Reg |= (1<<_Bit))
 #define bitClear(_Reg, _Bit)  (_Reg &= ~(1<<_Bit))
 #define bitToggle(_Reg, _Bit) (_Reg ^= 1<<_Bit)
-#define bitCheck(_Reg, _Bit)  ((_Reg>>_Bit) & 0x01)
-#define bitWaitHigh(_Reg, _Bit)  while(!bitCheck(_Reg, _Bit))
-#define bitWaitLow (_Reg, _Bit)  while(bitCheck(_Reg, _Bit))
 #define bitChange(_Reg, _Bit, Value) (Value == 1 ? bitSet(_Reg, _Bit) : bitClear(_Reg, _Bit))
+#define bitCheck(_Reg, _Bit)  ((_Reg>>_Bit) & 0x01)
+#define bitCheckHigh(_Reg, _Bit)  (bitCheck(_Reg, _Bit))
+#define bitCheckLow(_Reg, _Bit)  (!bitCheck(_Reg, _Bit))
+#define bitWaitHigh(_Reg, _Bit)  while(bitCheckLow(_Reg, _Bit))
+#define bitWaitLow(_Reg, _Bit)  while(bitCheckHigh(_Reg, _Bit))
 #define bitShiftLeft(_Reg, _Pos)  (_Reg = _Reg << _Pos)
 #define bitShiftRight(_Reg, _Pos) (_Reg = _Reg >> _Pos)
 #define Conv_16to8_MSB(_Value) (uint8_t) (_Value >> 8)
