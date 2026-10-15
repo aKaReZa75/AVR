@@ -226,15 +226,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
     │       ├─ Function — `M66_CheckSMS()` implementation.
     │       ├─ Execution — Testing on RCS-AVR board.
     │       └─ Control — Relay activation based on SMS content.
-    │
+    │   
     └── RF
-        └── [aKaReZa 143 - AVR, EV1527 - PART A]
-            ├─ EV1527 — Protocol structure and remote specifications.
-            ├─ Project — Decoder project setup and initialization.
-            ├─ Detection — Preamble recognition and synchronization.
-            ├─ Decoding — Extracting and interpreting RF data.
-            ├─ Testing — Practical validation with EV1527 remotes.
-            └─ Workflow — GitHub Pull Requests and development basics.              
+        ├── [aKaReZa 143 - AVR, EV1527 - PART A]
+        │   ├─ EV1527 — Protocol structure and remote specifications.
+        │   ├─ Project — Decoder project setup and initialization.
+        │   ├─ Detection — Preamble recognition and synchronization.
+        │   ├─ Decoding — Extracting and interpreting RF data.
+        │   ├─ Testing — Practical validation with EV1527 remotes.
+        │   └─ Workflow — GitHub Pull Requests and development basics.
+        │
+        └── [aKaReZa 145 - AVR, EV1527 - PART B]
+            ├─ Reception — Continuous RF data acquisition.
+            ├─ Parsing — Separating Address and Key fields.
+            ├─ Validation — Data verification and reliability checks.
+            ├─ Signal Ratio — Analysis and practical usage.
+            ├─ Receivers — Super Heterodyne architecture overview.
+            ├─ Learning — Remote pairing and learning process.
+            └─ Interrupts — Optimized RF signal handling.        
 ```
 
 <table style="border-collapse: collapse;">
@@ -761,6 +770,24 @@ In this section, only **AVR**-related videos are available. These videos are gen
     </td>
   </tr>
 
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/WswpGiFNA7Q">aKaReZa 145 – AVR, EV1527 - PART B</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        Continue developing the <strong>EV1527 remote control receiver</strong> with AVR microcontrollers by implementing advanced data processing and validation techniques. This episode covers continuous frame reception, extracting <strong>Address</strong> and <strong>Key</strong> fields, improving reliability through data validation, understanding <strong>Signal Ratio</strong>, exploring <strong>Super Heterodyne receivers</strong>, and optimizing interrupt handling for more robust RF communication systems.
+      </p>
+    </td>
+    <td width="360" valign="center" style="padding: 0;">
+      <a href="https://youtu.be/WswpGiFNA7Q">
+        <img src="https://img.youtube.com/vi/WswpGiFNA7Q/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 145 – AVR, EV1527 - PART B Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+  
 </table>
 
 # 🌟 Support Me
